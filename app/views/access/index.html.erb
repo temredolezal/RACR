@@ -1,0 +1,11 @@
+	<% @page_title = "Admin Menu" %>
+
+	  <h2>Admin Menu</h2>
+	  <h3>Logged in as: <%= session[:username] %></h3>
+
+	<br>
+	<div class="links btn-group">
+		<%= link_to("Manage Projects", {:controller => 'projects'}, :class => 'btn btn-custom') %><br><br>
+		<%= link_to("Manage Admin Users", {:controller => 'admin_users'}, :class => 'btn btn-custom') %><br><br>
+		<%= link_to("Logout", {:action => 'logout'}, :class => 'btn btn-custom') %>
+	</div>

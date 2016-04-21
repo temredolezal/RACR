@@ -1,0 +1,15 @@
+<% projects ||= [] %>
+<ul>
+	<li>** PROJECTS **<br><BR></li>
+	<% projects.each do |project| %>
+	  <li>
+	    <b><%= project.position %>)&nbsp;&nbsp;<%= project.name %></b>
+	    <ul>
+	    Sections:
+	    <% project.sections.visible.sorted.each do |section| %>
+	      <li>- <%= link_to_unless_current(section.name, {:action => 'show', :permalink => section.permalink}) %></li>
+	    <% end %>
+	    </ul>
+	  </li>
+	  <% end %>
+</ul>

@@ -1,0 +1,18 @@
+	<% @page_title = "New Page" %>
+	<br>
+	<div class="links btn-group">
+		<%= link_to("<< Back to Pages List", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom') %>
+	</div>
+
+	  <h2>Create Page</h2>
+
+	  <%= form_for(:page, :url => {:action => 'create', :section_id => @section.id}) do |f| %>
+
+	    <%= render(:partial => "form", :locals => {:f => f}) %>
+	    <br>
+
+	    <div class="links btn-group">
+		    <%= submit_tag("Create Page", :class => 'btn btn-custom') %>
+		</div>
+
+	  <% end %>

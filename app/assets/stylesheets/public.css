@@ -1,0 +1,83 @@
+/* Public stylesheet */
+
+/* Colors
+red:          #993120
+green:        #94B26F
+light green:  #B6D491
+yellow:       #F2DC87
+dark brown:   #332318
+light brown:  #4C2516
+font: 14px Verdana,Lucida,Arial,Helvetica,sans-serif; color: #332318;
+font-family: Verdana,Lucida,Arial,Helvetica,sans-serif;
+*/
+
+html { height: 100%; width: 100%; }
+body { width: 100%; min-width: 380px; height: 100%; margin: 0; padding: 0;
+ }
+p, td, ul, ol, li, dl, dt, dd {
+   }
+img { border: none; }
+table { border-collapse: collapse; }
+table tr th, table tr td { vertical-align: middle; text-align: left;
+  padding: 3px; }
+table tr th label { text-align: right; }
+.edit table tr th { text-align: right;}
+
+a, a:visited { color: #993120; }
+a:hover {}
+img.space {
+    margin-right: 3px;
+}
+.reference-name {
+  font-weight: bold;
+  font-size: 2em;
+}
+textarea {
+    width: 850px;
+}
+input, textarea, keygen, select, button {
+    margin: .2em;
+    color: #332318;
+}
+input[type=radio] {
+    color: #332318;
+}
+input[type=checkbox] {
+    color: #332318;
+}
+
+.clear { clear: both; }
+.center { text-align: center; }
+
+/* Structure */
+#header { height: 4em; padding-top: 1em; text-align: center;
+  background: #993120; color: #FFFFFF; }
+#header h1 { margin: 0; padding: 0; }
+#main { min-height: 500px; background: #F2DC87; }
+#navigation { float: left; width: 180px; min-height: 680px; padding: 10px;
+  background: #94B26F; color: #4C2516; }
+  a.back-link { font-size: ; margin: 15px 0; padding: 15px 0; }
+#content { padding: 10px; }
+#footer { clear: both; height: 2.5em; text-align: right;
+  background: #4C2516 url('/assets/footer_gradient.png') repeat-y 0 0; color: #F2DC87; }
+#footer p { margin: 0; padding: 0.5em 1em; }
+
+/* Navigation */
+#navigation ul { list-style: none; margin: 0; padding: 0; }
+#navigation ul li { margin-bottom: 0.5em; }
+#navigation ul ul { margin: 0.5em 0 0 1em; font-size: 0.9em; }
+#navigation a { text-decoration: none; padding: 1px 3px;}
+#navigation a:hover { background: #F2DC87; }
+
+/* Public */
+#public { font-size: 1.4em; }
+#public ul { list-style: none; padding: 25px 5px 5px 25px; }
+#public ul li {  }
+#public ul ul { margin: 3px 0; padding-top: 0; }
+#public ul li ul li { margin-left: 12px; padding-top: 0; }
+#public a { text-decoration: none; padding: ;}
+#public a:hover { background: #F2DC87; }
+#public div.links { margin: 20px 0 0 20px; }
+
+/* Content */
+#content h2 { color: #4C2516; }

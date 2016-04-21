@@ -1,0 +1,17 @@
+	<% @page_title = "Delete Page" %>
+	<br>
+	<div class="links btn-group">
+		<%= link_to("<< Back to Pages List", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom') %>
+	</div>
+
+	  <h2>Delete Page</h2>
+
+	  <%= form_for(:page, :url => {:action => 'destroy', :id => @page.id, :section_id => @section.id}) do |f| %>
+
+	    <h3>Are you sure you want to permanently delete the "<%= @page.name %>" Page?</h3>
+		<br>
+	    <div class="links btn-group">
+	    	<%= submit_tag("Yes, Delete Page", :class => 'btn btn-custom') %>
+	    </div>
+
+	  <% end %>

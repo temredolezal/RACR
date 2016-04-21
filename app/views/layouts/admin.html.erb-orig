@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QA Projects Admin | <%= @page_title || "Admin" %></title>
+    <%= stylesheet_link_tag('application', :media => 'all') %>
+  </head>
+  <body>
+    <div id="header">
+      <h1>QA Projects Admin</h1>
+    </div>
+    <div id="main">
+      <div id="navigation">
+        <ul>
+        <li><br><%= link_to("<< Admin Site", {:controller => 'access', :action => 'index'}, :class => 'btn btn-custom') %></li>
+        <li><%= link_to("<< Public Site", {:controller => 'public', :action => 'index'}, :class => 'btn btn-custom') %></li>
+        </ul>
+        <%#= render(:partial => 'layouts/navigation', :locals => {:subjects => @subjects}) %>
+      </div>
+      <div id="content">
+        <% if !flash[:notice].blank? %>
+        <div class="notice">
+          <%= flash[:notice] %>
+        </div>
+      <% end %>
+        <%= yield %>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div id="footer">
+      <p id="copyright">Created and maintained by Temre Dolezal: tdolezal@azcentral.com</p>
+    </div>
+  </body>
+</html>

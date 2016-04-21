@@ -1,0 +1,20 @@
+  <%= error_messages_for(@project) %>
+
+  <table summary="Project form fields">
+    <tr>
+      <th><%= f.label(:name, "Project Name") %></th>
+      <td><%= f.text_field(:name) %></td>
+    </tr>
+    <tr>
+      <th><%= f.label(:position, "Project Position") %></th>
+      <td><%= f.select(:position, 1..@project_count) %></td>
+    </tr>
+    <tr>
+      <th><%= f.label(:visible, "Project Visible?") %></th>
+      <td><%= f.check_box(:visible) %> Yes</td>
+    </tr>
+    <tr>
+      <th><%= f.label(:created_at, "Project Created") %></th>
+      <td><%= f.datetime_select(:created_at, :order => [:month, :day, :year]) %></td>
+    </tr>
+  </table>

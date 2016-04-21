@@ -1,0 +1,55 @@
+  <% @page_title = "Show Page" %>
+  <br>
+  <div class="links btn-group">
+    <%= link_to("<< Back to Pages List", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom') %>
+  </div>
+
+    <h2>Page Detail</h2>
+
+    <table summary="Page detail view">
+      <tr>
+        <th>Section Name</th>
+        <td><%= @section.name %></td>
+      </tr>
+      <tr>
+        <th>Page ID</th>
+        <td><%= @page.section_id %></td>
+      </tr>
+      <tr>
+        <th>Page Name</th>
+        <td><%= @page.name %></td>
+      </tr>
+      <tr>
+        <th>Page Position</th>
+        <td><%= @page.position %></td>
+      </tr>
+      <tr>
+        <th>Page Visible?</th>
+        <td><%= @page.visible ? 'true' : 'false' %></td>
+      </tr>
+      <tr>
+        <th>Content Type</th>
+        <td><%= @page.content_type %></td>
+      </tr>
+      <tr>
+        <th>Content</th>
+        <td><%= @page.content %></td>
+      </tr>
+      <tr>
+        <th>Created</th>
+        <td><%= @page.created_at %></td>
+      </tr>
+      <tr>
+        <th>Updated</th>
+        <td><%= @page.updated_at %></td>
+      </tr>
+      <tr>
+        <th>Actions</th>
+        <td>
+          <div class="links btn-group">
+            <%= link_to("Edit Page", {:action => 'edit', :id => @page.id, :section_id => @section.id}, :class => 'btn btn-custom') %><br>
+            <%= link_to("Delete Page", {:action => 'delete', :id => @page.id, :section_id => @section.id}, :class => 'btn btn-custom') %>
+          </div>
+        </td>
+      </tr>
+    </table>

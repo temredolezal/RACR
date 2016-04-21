@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QA Projects Admin | <%= @page_title || "Admin" %></title>
+   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+
+        <div class="navbar-header">
+          <%= link_to "QA Projects Admin", {:controller => 'access', :action => 'index'}, class: "navbar-brand" %>
+        </div>
+
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Admin Site", {:controller => 'access', :action => 'index'} %></li>
+          <li><%= link_to "Public Site", {:controller => 'public', :action => 'index'} %></li>
+        </ul>
+
+    </div>
+  </nav>
+
+  <div id="container">
+    <div class="row">
+        <% if !flash[:notice].blank? %>
+          <div class="notice">
+          <%= flash[:notice] %>
+          </div>
+        <% end %>
+
+    <div id="public" class="col-md-2">
+      <div class="links btn-group">
+        <%= link_to "Public Menu", {:controller => 'public', :action => 'index'}, class: "btn btn-custom" %><br><br>
+        <%= link_to "Admin Menu", {:controller => 'access', :action => 'index'}, class: "btn btn-custom" %><br><br><br>
+
+        <%= link_to("Manage Projects", {:controller => 'projects'}, :class => 'btn btn-custom') %><br><br>
+        <%= link_to("Manage Admin Users", {:controller => 'admin_users'}, :class => 'btn btn-custom') %><br><br>
+      </div>
+    </div>
+
+      <div class="col-md-7">
+        <%= yield %>
+    </div>
+    </div>
+
+  </body>
+</html>

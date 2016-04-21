@@ -1,0 +1,51 @@
+  <% @page_title = "Sections in Project" %>
+
+  <br>
+    <div class="links btn-group">
+      <%= link_to("<< Back to Projects List", {:controller => 'projects', :action => 'index'}, :class => 'btn btn-custom') %>
+    </div>
+ 
+    <h2>Sections in "<%= @project.name %>" Project</h2>
+
+    <div class="links btn-group">
+      <%= link_to(image_tag('plus_sign.png', :size => '11x11', :class => 'space', :alt => '+') + "Add New Section", {:action => 'new', :project_id => @project.id}, :class => 'btn btn-custom navbar-right') %>
+    </div>
+      <%#= link_to(image_tag('plus_sign.png', :size => '11x11', :class => 'space', :alt => '+') + "Add New Page", {:action => 'new', :page_id => @page.id, :page_id => @page.id}, :class => 'btn btn-custom navbar-right') %>
+
+    <h3><%= pluralize(@project.sections.size, 'sections') %> found</h3>
+
+    <table summary="Section list">
+      <tr>
+        <!--<th>Project Name</th>-->
+        <th>Section Name</th>
+        <th class="center">Position</th>
+        <th>Permalink</th>
+        <th class="center">Visible?</th>
+        <th class="center"># of Pages</th>
+        <th>Section Actions</th>
+      </tr>
+      <% @sections.each do |section| %>
+      <tr class="<%= cycle('odd', 'even') %>">
+        <!--<td><%#= page.subject.name if page.subject %></td>-->
+        <td><%= section.name %><br>
+          <div class="links btn-group">
+            <%= link_to("Section Detail", {:action => 'show', :id => section.id, :project_id => @project.id}, :class => 'btn btn-custom') %>
+          </div>
+        </td>
+        <td class="center"><%= section.position %></td>
+        <td><%= section.permalink %></td>
+        <td class="center"><%= status_tag(section.visible) %></td>
+        <td class="center"><%= section.pages.size %><br>
+          <div class="links btn-group">
+            <%= link_to("View Pages", {:controller => 'pages', :section_id => section.id}, :class => 'btn btn-custom') %>
+          </div>
+        </td>
+        <td class="actions">
+          <div class="links btn-group">
+            <%= link_to("Edit Section", {:action => 'edit', :id => section.id, :project_id => @project.id}, :class => 'btn btn-custom') %><br>
+            <%= link_to("Delete Section", {:action => 'delete', :id => section.id, :project_id => @project.id}, :class => 'btn btn-custom') %>
+          </div>
+        </td>
+      </tr>
+      <% end %>
+    </table>

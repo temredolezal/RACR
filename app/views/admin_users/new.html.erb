@@ -1,0 +1,18 @@
+	<% @page_title = 'Create Admin User' %>
+	<br>
+	<div class="links btn-group">
+		<%= link_to("<< Back to Admin Users List", {:action => 'index'}, :class => 'btn btn-custom') %>
+	</div>
+
+	  <h2>Create Admin User</h2>
+
+	  <%= form_for(:admin_user, :url => {:action => 'create'}) do |f| %>
+
+	    <%= render(:partial => 'form', :locals => {:f => f} ) %>
+	    <br>
+
+	    <div class="links btn-group">
+		    <%= submit_tag('Create Admin User', :class => 'btn btn-custom') %>
+		</div>
+
+	  <% end %>

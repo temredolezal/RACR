@@ -1,0 +1,41 @@
+  <% @page_title = "Section Pages" %>
+  <br>
+      <div class="links btn-group">
+        <%= link_to("<< Back to Sections List", {:controller => 'sections', :action => 'index', :project_id => @section.project_id}, :class => 'btn btn-custom') %>
+      </div>
+
+    <h2>All Pages in "<%= @section.name %>" Section</h2>
+
+    <div class="links btn-group">
+      <%= link_to(image_tag('plus_sign.png', :size => '11x11', :class => 'space', :alt => '+') + "Add New Page", {:action => 'new', :section_id => @section.id, :section_id => @section.id}, :class => 'btn btn-custom navbar-right') %>
+    </div>
+
+    <h3><%= pluralize(@pages.size, 'pages') %> found</h3>
+
+    <table summary="Page list">
+      <tr>
+        <th>Page Position</th>
+        <th>Page Name</th>
+        <th>Content Type</th>
+        <th>Visible?</th>
+        <!--<th>Page Actions</th>-->
+      </tr>
+      <% @pages.each do |page| %>
+      <tr class="<%= cycle('odd', 'even') %>">
+        <td class="center"><%= page.position %></td>
+        <td><%= page.name %><br>
+          <div class="links btn-group">
+            <%= link_to("Page Detail", {:action => 'show', :id => page.id, :section_id => @section.id}, :class => 'btn btn-custom') %>
+          </div>
+        </td>
+        <td><%= page.content_type %></td>
+        <td class="center"><%= status_tag(page.visible) %></td>
+        <td class="actions">
+          <div class="links btn-group">
+            <%= link_to("Edit Page", {:action => 'edit', :id => page.id, :section_id => @section.id}, :class => 'btn btn-custom') %><br>
+            <%= link_to("Delete Page", {:action => 'delete', :id => page.id, :section_id => @section.id}, :class => 'btn btn-custom') %>
+          </div>
+        </td>
+      </tr>
+      <% end %>
+    </table>

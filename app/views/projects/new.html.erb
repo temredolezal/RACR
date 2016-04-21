@@ -1,0 +1,18 @@
+	<% @page_title = "New Project" %>
+
+	<div class="links btn-group">
+		<%= link_to("<< Back to Projects List", {:action => 'index'}, :class => 'btn btn-custom') %>
+	</div>
+
+	  <h2>Create Project</h2>
+
+	  <%= form_for(:project, :url => {:action => 'create'}) do |f| %>
+
+	    <%= render(:partial => "form", :locals => {:f => f}) %>
+	    <br>
+
+	<div class="links btn-group">
+	    <%= submit_tag("Create Project", :class => 'btn btn-custom') %>
+	</div>
+
+	  <% end %>

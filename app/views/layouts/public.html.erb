@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QA Projects<%= " | #{@page_title}" if @page_title %></title>
+   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  </head>
+  <body>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+
+      <div class="navbar-header">
+        <%= link_to "All QA Projects", {:controller => 'access', :action => 'index'}, class: "navbar-brand" %>
+      </div>
+
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Admin Site", {:controller => 'access', :action => 'index'} %></li>
+        <li><%= link_to "Public Site", {:controller => 'public', :action => 'index'} %></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div id="container">
+    <div id="public" class="col-md-3">
+      <%= render(:partial => 'layouts/navigation', :locals => {:projects => @projects}) %>
+    </div>
+
+    <div id="public" class="col-md-7">
+      <% if !flash[:notice].blank? %>
+        <div class="notice">
+          <%= flash[:notice] %>
+        </div>
+      <% end %>
+        
+        <%= yield %>
+    </div>
+  </div>
+
+  </body>
+</html>
