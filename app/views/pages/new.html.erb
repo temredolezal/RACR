@@ -1,7 +1,8 @@
 	<% @page_title = "New Page" %>
 	<br>
 	<div class="links btn-group">
-		<%= link_to("<< Back to Pages List", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom') %>
+		<%= link_to("<< Back", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom2') %>
+		<%#= link_to("<< Back to Pages List", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom2') %>
 	</div>
 
 	  <h2>Create Page</h2>
@@ -12,7 +13,7 @@
 	    <br>
 
 	    <div class="links btn-group">
-		    <%= submit_tag("Create Page", :class => 'btn btn-custom') %>
+		    <%= submit_tag("Create Page", :class => 'btn btn-custom2') %>
 		</div>
 
 	  <% end %>

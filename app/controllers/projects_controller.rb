@@ -25,7 +25,7 @@ class ProjectsController < ApplicationController
     # Save the object
     if @project.save
       # If save succeeds, redirect to the index action
-      flash[:notice] = "Projet created successfully."
+      flash[:notice] = "Project created successfully."
       redirect_to(:action => 'index')
     else
       # If save fails, redisplay the form so user can fix problems

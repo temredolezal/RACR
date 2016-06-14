@@ -1,7 +1,8 @@
 	<% @page_title = "New Project" %>
 
 	<div class="links btn-group">
-		<%= link_to("<< Back to Projects List", {:action => 'index'}, :class => 'btn btn-custom') %>
+		<%= link_to("<< Back", {:action => 'index'}, :class => 'btn btn-custom2') %>
+		<%#= link_to("<< Back to Projects List", {:action => 'index'}, :class => 'btn btn-custom2') %>
 	</div>
 
 	  <h2>Create Project</h2>
@@ -12,7 +13,7 @@
 	    <br>
 
 	<div class="links btn-group">
-	    <%= submit_tag("Create Project", :class => 'btn btn-custom') %>
+	    <%= submit_tag("Create Project", :class => 'btn btn-custom2') %>
 	</div>
 
 	  <% end %>

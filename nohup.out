@@ -1,0 +1,1676 @@
+[2016-05-24 07:43:00] INFO  WEBrick 1.3.1
+[2016-05-24 07:43:00] INFO  ruby 2.2.5 (2016-04-26) [i686-linux]
+[2016-05-24 07:43:00] INFO  WEBrick::HTTPServer#start: pid=26354 port=3000
+=> Booting WEBrick
+=> Rails 4.2.6 application starting in development on http://204.155.175.242:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+
+
+Started GET "/" for 204.155.175.241 at 2016-05-24 07:46:57 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (1.9ms)
+  [1m[35mProject Load (1.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.7ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (60.6ms)
+Completed 200 OK in 703ms (Views: 652.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/access/login" for 204.155.175.80 at 2016-05-24 08:27:37 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.8ms)
+Completed 200 OK in 104ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.80 at 2016-05-24 09:35:49 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.248 at 2016-05-25 09:37:21 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.238 at 2016-05-25 19:02:07 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.237 at 2016-05-26 08:41:09 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 104ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.243 at 2016-05-26 12:47:25 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.243 at 2016-05-27 09:46:15 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 113ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.246 at 2016-05-29 20:15:43 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 113ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.84 at 2016-05-31 09:05:22 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 104ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.84 at 2016-06-01 09:06:28 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 115ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.241 at 2016-06-02 08:51:49 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.81 at 2016-06-03 08:33:18 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.84 at 2016-06-03 09:13:50 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 101ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.245 at 2016-06-06 07:25:53 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 103ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.81 at 2016-06-08 12:00:53 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 116ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/access/attempt_login" for 204.155.175.247 at 2016-06-08 12:01:19 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#attempt_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "username"=>"tdolezal@azcentral.com", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mAdminUser Load (1.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."username" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["username", "tdolezal@azcentral.com"]]
+Redirected to http://racr.azcentral.com/access/login
+Completed 302 Found in 19ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/access/login" for 204.155.175.247 at 2016-06-08 12:01:19 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 132ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/access/attempt_login" for 204.155.175.245 at 2016-06-08 12:01:28 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#attempt_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "username"=>"temredolezal", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."username" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["username", "temredolezal"]]
+Redirected to http://racr.azcentral.com/admin
+Completed 302 Found in 179ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/admin" for 204.155.175.245 at 2016-06-08 12:01:28 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (2.9ms)
+Completed 200 OK in 172ms (Views: 170.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 204.155.175.248 at 2016-06-08 12:01:35 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.4ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (5.4ms)
+Completed 200 OK in 111ms (Views: 108.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin" for 204.155.175.236 at 2016-06-08 14:49:15 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (1.7ms)
+Completed 200 OK in 122ms (Views: 120.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 204.155.175.247 at 2016-06-08 14:49:20 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "projects"
+  [1m[36mProject Load (0.8ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY projects.position ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (9.4ms)
+Completed 200 OK in 123ms (Views: 120.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/plus_sign-b7cc7f95073832695f7b3f55aad5782d185bb133bc5581bdf737931d9059822a.png" for 204.155.175.247 at 2016-06-08 14:49:20 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/projects" for 204.155.175.80 at 2016-06-08 14:51:37 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "projects"[0m
+  [1m[35mProject Load (0.9ms)[0m  SELECT "projects".* FROM "projects"  ORDER BY projects.position ASC
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (8.2ms)
+Completed 200 OK in 123ms (Views: 120.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin" for 204.155.175.244 at 2016-06-08 14:51:39 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 204.155.175.247 at 2016-06-08 14:51:40 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.4ms)
+Completed 200 OK in 122ms (Views: 120.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/show/allsums" for 204.155.175.247 at 2016-06-08 14:53:20 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (0.8ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.6ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (24.6ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.3ms)
+Completed 200 OK in 143ms (Views: 136.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/show/allgherkin" for 204.155.175.244 at 2016-06-08 14:53:23 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allgherkin"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allgherkin"], ["visible", "t"]]
+  [1m[36mPage Load (0.6ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 2], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.3ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.5ms)
+Completed 200 OK in 115ms (Views: 110.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/show/allsums" for 204.155.175.243 at 2016-06-08 14:53:48 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.1ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.1ms)
+Completed 200 OK in 113ms (Views: 109.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/projects/show/1" for 204.155.175.238 at 2016-06-08 14:54:39 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProject Load (0.3ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 1]]
+/home/dolezalt/RACR/app/views/pages/index.html.erb:10: warning: duplicated key at line 10 ignored: :section_id
+  Rendered projects/show.html.erb within layouts/admin (4.7ms)
+Completed 200 OK in 125ms (Views: 117.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sections?project_id=1" for 204.155.175.83 at 2016-06-08 14:54:46 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 1]]
+  [1m[36mSection Load (0.7ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 2]]
+  Rendered sections/index.html.erb within layouts/admin (13.9ms)
+Completed 200 OK in 140ms (Views: 135.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/pages?section_id=1" for 204.155.175.238 at 2016-06-08 14:54:56 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"1"}
+  [1m[35mSection Load (0.4ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 1]]
+  [1m[35mPage Load (0.6ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC  [["section_id", 1]]
+  Rendered pages/index.html.erb within layouts/admin (7.6ms)
+Completed 200 OK in 122ms (Views: 118.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pages/edit/1?section_id=1" for 204.155.175.83 at 2016-06-08 14:55:06 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPage Load (0.3ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages"
+  Rendered application/_error_messages.html.erb (3.6ms)
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1]]
+  Rendered pages/_form.html.erb (43.3ms)
+  Rendered pages/edit.html.erb within layouts/admin (49.6ms)
+Completed 200 OK in 175ms (Views: 168.7ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/pages/update/1?section_id=1" for 204.155.175.82 at 2016-06-08 14:55:25 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"1", "name"=>"Temre's Summary", "position"=>"1", "visible"=>"1", "content_type"=>"text", "content"=>"Jira Link: https://jira.gannett.com/browse/LDSNQA-192\r\nMicrodosing quinoa forage, banjo fashion axe pour-over you probably haven't heard of them +1 brunch taxidermy four dollar toast. Taxidermy ramps post-ironic brooklyn, sriracha tumblr intelligentsia artisan meh pitchfork cred kale chips leggings fap forage. Franzen chambray migas, chicharrones pabst chia tofu paleo small batch heirloom deep v aesthetic austin. Cray before they sold out freegan, marfa asymmetrical retro literally vinyl authentic portland waistcoat mumblecore scenester brooklyn mixtape. Sriracha PBR&B cornhole green juice paleo beard, 8-bit freegan hammock intelligentsia. Cold-pressed man braid normcore crucifix, 8-bit swag deep v single-origin coffee echo park health goth VHS trust fund. Readymade 8-bit fap fingerstache roof party, slow-carb DIY wayfarers truffaut butcher tacos disrupt."}, "commit"=>"Update Page", "section_id"=>"1", "id"=>"1"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "pages" SET "content" = ?, "updated_at" = ? WHERE "pages"."id" = ?[0m  [["content", "Jira Link: https://jira.gannett.com/browse/LDSNQA-192\r\nMicrodosing quinoa forage, banjo fashion axe pour-over you probably haven't heard of them +1 brunch taxidermy four dollar toast. Taxidermy ramps post-ironic brooklyn, sriracha tumblr intelligentsia artisan meh pitchfork cred kale chips leggings fap forage. Franzen chambray migas, chicharrones pabst chia tofu paleo small batch heirloom deep v aesthetic austin. Cray before they sold out freegan, marfa asymmetrical retro literally vinyl authentic portland waistcoat mumblecore scenester brooklyn mixtape. Sriracha PBR&B cornhole green juice paleo beard, 8-bit freegan hammock intelligentsia. Cold-pressed man braid normcore crucifix, 8-bit swag deep v single-origin coffee echo park health goth VHS trust fund. Readymade 8-bit fap fingerstache roof party, slow-carb DIY wayfarers truffaut butcher tacos disrupt."], ["updated_at", "2016-06-08 21:55:25.558203"], ["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ? AND (position = 1)  [["section_id", 1]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sections" SET "updated_at" = '2016-06-08 21:55:25.563772' WHERE "sections"."id" = ?  [["id", 1]]
+  [1m[36m (62.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/pages/show/1?section_id=1
+Completed 302 Found in 74ms (ActiveRecord: 63.4ms)
+
+
+Started GET "/pages/show/1?section_id=1" for 204.155.175.82 at 2016-06-08 14:55:25 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#show as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pages/show.html.erb within layouts/admin (2.9ms)
+Completed 200 OK in 111ms (Views: 108.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/show/allsums" for 204.155.175.82 at 2016-06-08 14:55:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (0.7ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.5ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.7ms)
+Completed 200 OK in 142ms (Views: 136.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/public.self-f4bb5cc75419e8b730976d679d7cd687855843624a605f760369791ee24bc0b0.css?body=1" for 204.155.175.82 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.84 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin.self-10b95cdf7f92a299c09432881b08aca7ec628de066da5282eb77e617838240f8.css?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.82 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.84 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-c1c8608c36ace009a4460fe384614c3753b9e3c10ca1664ee9e7121a9af03468.css?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 204.155.175.82 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 204.155.175.84 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 204.155.175.82 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 204.155.175.84 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 204.155.175.82 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 204.155.175.84 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 204.155.175.82 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 204.155.175.84 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-345b58257c005097540eb65c1894467e02e82a658532b90119f834f250539ab1.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-de3615060568b463d43b07d97e54e44d624bb66c323372bf19f0d7cab7415efb.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.82 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.84 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.237 at 2016-06-08 14:55:31 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/edit/1?section_id=1" for 204.155.175.241 at 2016-06-08 14:55:46 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mProject Load (0.1ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "pages"[0m
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[35mSection Load (0.6ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC  [["project_id", 1]]
+  Rendered pages/_form.html.erb (4.8ms)
+  Rendered pages/edit.html.erb within layouts/admin (7.0ms)
+Completed 200 OK in 118ms (Views: 112.8ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/pages/update/1?section_id=1" for 204.155.175.236 at 2016-06-08 14:56:18 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"1", "name"=>"Temre's Summary", "position"=>"1", "visible"=>"1", "content_type"=>"text", "content"=>"Jira Link: <a href=\"https://jira.gannett.com/browse/LDSNQA-192\">https://jira.gannett.com/browse/LDSNQA-192</a>\r\nMicrodosing quinoa forage, banjo fashion axe pour-over you probably haven't heard of them +1 brunch taxidermy four dollar toast. Taxidermy ramps post-ironic brooklyn, sriracha tumblr intelligentsia artisan meh pitchfork cred kale chips leggings fap forage. Franzen chambray migas, chicharrones pabst chia tofu paleo small batch heirloom deep v aesthetic austin. Cray before they sold out freegan, marfa asymmetrical retro literally vinyl authentic portland waistcoat mumblecore scenester brooklyn mixtape. Sriracha PBR&B cornhole green juice paleo beard, 8-bit freegan hammock intelligentsia. Cold-pressed man braid normcore crucifix, 8-bit swag deep v single-origin coffee echo park health goth VHS trust fund. Readymade 8-bit fap fingerstache roof party, slow-carb DIY wayfarers truffaut butcher tacos disrupt."}, "commit"=>"Update Page", "section_id"=>"1", "id"=>"1"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPage Load (0.1ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "pages" SET "content" = ?, "updated_at" = ? WHERE "pages"."id" = ?  [["content", "Jira Link: <a href=\"https://jira.gannett.com/browse/LDSNQA-192\">https://jira.gannett.com/browse/LDSNQA-192</a>\r\nMicrodosing quinoa forage, banjo fashion axe pour-over you probably haven't heard of them +1 brunch taxidermy four dollar toast. Taxidermy ramps post-ironic brooklyn, sriracha tumblr intelligentsia artisan meh pitchfork cred kale chips leggings fap forage. Franzen chambray migas, chicharrones pabst chia tofu paleo small batch heirloom deep v aesthetic austin. Cray before they sold out freegan, marfa asymmetrical retro literally vinyl authentic portland waistcoat mumblecore scenester brooklyn mixtape. Sriracha PBR&B cornhole green juice paleo beard, 8-bit freegan hammock intelligentsia. Cold-pressed man braid normcore crucifix, 8-bit swag deep v single-origin coffee echo park health goth VHS trust fund. Readymade 8-bit fap fingerstache roof party, slow-carb DIY wayfarers truffaut butcher tacos disrupt."], ["updated_at", "2016-06-08 21:56:18.972003"], ["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ? AND (position = 1)[0m  [["section_id", 1]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "sections" SET "updated_at" = '2016-06-08 21:56:18.975869' WHERE "sections"."id" = ?[0m  [["id", 1]]
+  [1m[35m (85.4ms)[0m  commit transaction
+Redirected to http://racr.azcentral.com/pages/show/1?section_id=1
+Completed 302 Found in 95ms (ActiveRecord: 86.6ms)
+
+
+Started GET "/pages/show/1?section_id=1" for 204.155.175.236 at 2016-06-08 14:56:19 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#show as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPage Load (0.1ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pages/show.html.erb within layouts/admin (1.8ms)
+Completed 200 OK in 120ms (Views: 117.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/show/allsums" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.3ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.2ms)
+Completed 200 OK in 114ms (Views: 109.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/admin_users.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-f4bb5cc75419e8b730976d679d7cd687855843624a605f760369791ee24bc0b0.css?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin.self-10b95cdf7f92a299c09432881b08aca7ec628de066da5282eb77e617838240f8.css?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-c1c8608c36ace009a4460fe384614c3753b9e3c10ca1664ee9e7121a9af03468.css?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:27 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:28 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-345b58257c005097540eb65c1894467e02e82a658532b90119f834f250539ab1.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:28 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:28 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-de3615060568b463d43b07d97e54e44d624bb66c323372bf19f0d7cab7415efb.js?body=1" for 204.155.175.244 at 2016-06-08 14:56:28 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:28 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:28 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 204.155.175.80 at 2016-06-08 14:56:28 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/edit/1?section_id=1" for 204.155.175.81 at 2016-06-08 14:56:39 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPage Load (0.2ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1]]
+  Rendered pages/_form.html.erb (4.8ms)
+  Rendered pages/edit.html.erb within layouts/admin (7.1ms)
+Completed 200 OK in 130ms (Views: 125.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/pages/update/1?section_id=1" for 204.155.175.238 at 2016-06-08 14:56:51 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"1", "name"=>"Temre's Summary", "position"=>"1", "visible"=>"1", "content_type"=>"text", "content"=>"Jira Link: https://jira.gannett.com/browse/LDSNQA-192\r\nMicrodosing quinoa forage, banjo fashion axe pour-over you probably haven't heard of them +1 brunch taxidermy four dollar toast. Taxidermy ramps post-ironic brooklyn, sriracha tumblr intelligentsia artisan meh pitchfork cred kale chips leggings fap forage. Franzen chambray migas, chicharrones pabst chia tofu paleo small batch heirloom deep v aesthetic austin. Cray before they sold out freegan, marfa asymmetrical retro literally vinyl authentic portland waistcoat mumblecore scenester brooklyn mixtape. Sriracha PBR&B cornhole green juice paleo beard, 8-bit freegan hammock intelligentsia. Cold-pressed man braid normcore crucifix, 8-bit swag deep v single-origin coffee echo park health goth VHS trust fund. Readymade 8-bit fap fingerstache roof party, slow-carb DIY wayfarers truffaut butcher tacos disrupt."}, "commit"=>"Update Page", "section_id"=>"1", "id"=>"1"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "pages" SET "content" = ?, "updated_at" = ? WHERE "pages"."id" = ?[0m  [["content", "Jira Link: https://jira.gannett.com/browse/LDSNQA-192\r\nMicrodosing quinoa forage, banjo fashion axe pour-over you probably haven't heard of them +1 brunch taxidermy four dollar toast. Taxidermy ramps post-ironic brooklyn, sriracha tumblr intelligentsia artisan meh pitchfork cred kale chips leggings fap forage. Franzen chambray migas, chicharrones pabst chia tofu paleo small batch heirloom deep v aesthetic austin. Cray before they sold out freegan, marfa asymmetrical retro literally vinyl authentic portland waistcoat mumblecore scenester brooklyn mixtape. Sriracha PBR&B cornhole green juice paleo beard, 8-bit freegan hammock intelligentsia. Cold-pressed man braid normcore crucifix, 8-bit swag deep v single-origin coffee echo park health goth VHS trust fund. Readymade 8-bit fap fingerstache roof party, slow-carb DIY wayfarers truffaut butcher tacos disrupt."], ["updated_at", "2016-06-08 21:56:51.653423"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ? AND (position = 1)  [["section_id", 1]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sections" SET "updated_at" = '2016-06-08 21:56:51.657163' WHERE "sections"."id" = ?  [["id", 1]]
+  [1m[36m (59.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/pages/show/1?section_id=1
+Completed 302 Found in 70ms (ActiveRecord: 61.0ms)
+
+
+Started GET "/pages/show/1?section_id=1" for 204.155.175.238 at 2016-06-08 14:56:51 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#show as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pages/show.html.erb within layouts/admin (1.7ms)
+Completed 200 OK in 106ms (Views: 104.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/edit/1?section_id=1" for 204.155.175.238 at 2016-06-08 14:56:56 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mProject Load (0.1ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "pages"[0m
+  Rendered application/_error_messages.html.erb (0.0ms)
+  [1m[35mSection Load (0.5ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC  [["project_id", 1]]
+  Rendered pages/_form.html.erb (4.6ms)
+  Rendered pages/edit.html.erb within layouts/admin (6.8ms)
+Completed 200 OK in 138ms (Views: 133.0ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/pages/update/1?section_id=1" for 204.155.175.238 at 2016-06-08 14:57:00 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"1", "name"=>"Temre's Summary", "position"=>"1", "visible"=>"1", "content_type"=>"HTML", "content"=>"Jira Link: https://jira.gannett.com/browse/LDSNQA-192\r\nMicrodosing quinoa forage, banjo fashion axe pour-over you probably haven't heard of them +1 brunch taxidermy four dollar toast. Taxidermy ramps post-ironic brooklyn, sriracha tumblr intelligentsia artisan meh pitchfork cred kale chips leggings fap forage. Franzen chambray migas, chicharrones pabst chia tofu paleo small batch heirloom deep v aesthetic austin. Cray before they sold out freegan, marfa asymmetrical retro literally vinyl authentic portland waistcoat mumblecore scenester brooklyn mixtape. Sriracha PBR&B cornhole green juice paleo beard, 8-bit freegan hammock intelligentsia. Cold-pressed man braid normcore crucifix, 8-bit swag deep v single-origin coffee echo park health goth VHS trust fund. Readymade 8-bit fap fingerstache roof party, slow-carb DIY wayfarers truffaut butcher tacos disrupt."}, "commit"=>"Update Page", "section_id"=>"1", "id"=>"1"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPage Load (0.1ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "pages" SET "content_type" = ?, "updated_at" = ? WHERE "pages"."id" = ?  [["content_type", "HTML"], ["updated_at", "2016-06-08 21:57:00.191818"], ["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ? AND (position = 1)[0m  [["section_id", 1]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "sections" SET "updated_at" = '2016-06-08 21:57:00.195491' WHERE "sections"."id" = ?[0m  [["id", 1]]
+  [1m[35m (79.3ms)[0m  commit transaction
+Redirected to http://racr.azcentral.com/pages/show/1?section_id=1
+Completed 302 Found in 89ms (ActiveRecord: 80.7ms)
+
+
+Started GET "/pages/show/1?section_id=1" for 204.155.175.238 at 2016-06-08 14:57:00 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#show as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPage Load (0.1ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pages/show.html.erb within layouts/admin (1.6ms)
+Completed 200 OK in 107ms (Views: 104.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/show/allsums" for 204.155.175.248 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.4ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.3ms)
+Completed 200 OK in 128ms (Views: 123.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/admin.self-10b95cdf7f92a299c09432881b08aca7ec628de066da5282eb77e617838240f8.css?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-f4bb5cc75419e8b730976d679d7cd687855843624a605f760369791ee24bc0b0.css?body=1" for 204.155.175.248 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-c1c8608c36ace009a4460fe384614c3753b9e3c10ca1664ee9e7121a9af03468.css?body=1" for 204.155.175.248 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-345b58257c005097540eb65c1894467e02e82a658532b90119f834f250539ab1.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-de3615060568b463d43b07d97e54e44d624bb66c323372bf19f0d7cab7415efb.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.248 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 204.155.175.83 at 2016-06-08 14:57:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/edit/1?section_id=1" for 204.155.175.241 at 2016-06-08 14:57:13 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPage Load (0.1ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1]]
+  Rendered pages/_form.html.erb (4.9ms)
+  Rendered pages/edit.html.erb within layouts/admin (7.0ms)
+Completed 200 OK in 115ms (Views: 110.3ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/pages/update/1?section_id=1" for 204.155.175.244 at 2016-06-08 14:57:32 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"1", "name"=>"Temre's Summary", "position"=>"1", "visible"=>"1", "content_type"=>"HTML", "content"=>"Jira Link: <a href=\"https://jira.gannett.com/browse/LDSNQA-192\">https://jira.gannett.com/browse/LDSNQA-192</a>\r\nMicrodosing quinoa forage, banjo fashion axe pour-over you probably haven't heard of them +1 brunch taxidermy four dollar toast. Taxidermy ramps post-ironic brooklyn, sriracha tumblr intelligentsia artisan meh pitchfork cred kale chips leggings fap forage. Franzen chambray migas, chicharrones pabst chia tofu paleo small batch heirloom deep v aesthetic austin. Cray before they sold out freegan, marfa asymmetrical retro literally vinyl authentic portland waistcoat mumblecore scenester brooklyn mixtape. Sriracha PBR&B cornhole green juice paleo beard, 8-bit freegan hammock intelligentsia. Cold-pressed man braid normcore crucifix, 8-bit swag deep v single-origin coffee echo park health goth VHS trust fund. Readymade 8-bit fap fingerstache roof party, slow-carb DIY wayfarers truffaut butcher tacos disrupt."}, "commit"=>"Update Page", "section_id"=>"1", "id"=>"1"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "pages" SET "content" = ?, "updated_at" = ? WHERE "pages"."id" = ?[0m  [["content", "Jira Link: <a href=\"https://jira.gannett.com/browse/LDSNQA-192\">https://jira.gannett.com/browse/LDSNQA-192</a>\r\nMicrodosing quinoa forage, banjo fashion axe pour-over you probably haven't heard of them +1 brunch taxidermy four dollar toast. Taxidermy ramps post-ironic brooklyn, sriracha tumblr intelligentsia artisan meh pitchfork cred kale chips leggings fap forage. Franzen chambray migas, chicharrones pabst chia tofu paleo small batch heirloom deep v aesthetic austin. Cray before they sold out freegan, marfa asymmetrical retro literally vinyl authentic portland waistcoat mumblecore scenester brooklyn mixtape. Sriracha PBR&B cornhole green juice paleo beard, 8-bit freegan hammock intelligentsia. Cold-pressed man braid normcore crucifix, 8-bit swag deep v single-origin coffee echo park health goth VHS trust fund. Readymade 8-bit fap fingerstache roof party, slow-carb DIY wayfarers truffaut butcher tacos disrupt."], ["updated_at", "2016-06-08 21:57:32.212350"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ? AND (position = 1)  [["section_id", 1]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sections" SET "updated_at" = '2016-06-08 21:57:32.215991' WHERE "sections"."id" = ?  [["id", 1]]
+  [1m[36m (67.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/pages/show/1?section_id=1
+Completed 302 Found in 78ms (ActiveRecord: 69.1ms)
+
+
+Started GET "/pages/show/1?section_id=1" for 204.155.175.244 at 2016-06-08 14:57:32 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#show as HTML
+  Parameters: {"section_id"=>"1", "id"=>"1"}
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pages/show.html.erb within layouts/admin (1.6ms)
+Completed 200 OK in 124ms (Views: 121.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/show/allsums" for 204.155.175.80 at 2016-06-08 14:57:38 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.7ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (5.4ms)
+Completed 200 OK in 143ms (Views: 137.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/admin_users.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.80 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin.self-10b95cdf7f92a299c09432881b08aca7ec628de066da5282eb77e617838240f8.css?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-f4bb5cc75419e8b730976d679d7cd687855843624a605f760369791ee24bc0b0.css?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.80 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-c1c8608c36ace009a4460fe384614c3753b9e3c10ca1664ee9e7121a9af03468.css?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 204.155.175.80 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 204.155.175.80 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 204.155.175.80 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 204.155.175.80 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-345b58257c005097540eb65c1894467e02e82a658532b90119f834f250539ab1.js?body=1" for 204.155.175.80 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-de3615060568b463d43b07d97e54e44d624bb66c323372bf19f0d7cab7415efb.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 204.155.175.236 at 2016-06-08 14:57:39 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 204.155.175.83 at 2016-06-08 15:03:14 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[35mProject Load (0.8ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.8ms)
+Completed 200 OK in 124ms (Views: 121.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin" for 204.155.175.248 at 2016-06-08 15:03:18 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 204.155.175.84 at 2016-06-08 15:03:20 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.5ms)
+Completed 200 OK in 112ms (Views: 109.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/show/allsums" for 204.155.175.83 at 2016-06-08 15:19:42 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (1.0ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.3ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.2ms)
+Completed 200 OK in 126ms (Views: 120.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/admin" for 204.155.175.241 at 2016-06-08 15:19:56 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 107ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 204.155.175.243 at 2016-06-09 09:51:27 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 116ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/show/allsums" for 204.155.175.243 at 2016-06-09 09:51:31 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (0.9ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.0ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.1ms)
+Completed 200 OK in 111ms (Views: 106.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/access/login" for 204.155.175.241 at 2016-06-09 09:51:44 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 118ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 204.155.175.244 at 2016-06-09 16:29:29 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  [1m[36mProject Load (0.8ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY projects.position ASC[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (7.1ms)
+Completed 200 OK in 123ms (Views: 120.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/projects/edit/1" for 204.155.175.241 at 2016-06-09 16:29:34 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  Rendered projects/_form.html.erb (10.4ms)
+  Rendered projects/edit.html.erb within layouts/admin (16.5ms)
+Completed 200 OK in 128ms (Views: 125.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects/edit/1" for 204.155.175.236 at 2016-06-10 17:38:10 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  Rendered application/_error_messages.html.erb (0.6ms)
+  Rendered projects/_form.html.erb (7.7ms)
+  Rendered projects/edit.html.erb within layouts/admin (10.7ms)
+Completed 200 OK in 129ms (Views: 126.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/access/login" for 204.155.175.245 at 2016-06-10 17:38:13 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/show/allsums" for 204.155.175.83 at 2016-06-10 17:38:21 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[36mSection Load (0.9ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.2ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.3ms)
+Completed 200 OK in 128ms (Views: 122.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/projects/edit/1" for 204.155.175.80 at 2016-06-11 14:30:35 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  Rendered projects/_form.html.erb (6.2ms)
+  Rendered projects/edit.html.erb within layouts/admin (8.2ms)
+Completed 200 OK in 115ms (Views: 112.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/access/login" for 204.155.175.238 at 2016-06-11 14:30:38 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 103ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/show/allsums" for 204.155.175.245 at 2016-06-11 14:30:47 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[36mSection Load (0.9ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.1ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.2ms)
+Completed 200 OK in 115ms (Views: 110.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/projects/edit/1" for 204.155.175.245 at 2016-06-13 08:47:32 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  Rendered application/_error_messages.html.erb (0.0ms)
+  Rendered projects/_form.html.erb (6.4ms)
+  Rendered projects/edit.html.erb within layouts/admin (8.4ms)
+Completed 200 OK in 125ms (Views: 122.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/access/login" for 204.155.175.243 at 2016-06-13 08:47:36 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 103ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/show/allsums" for 204.155.175.247 at 2016-06-13 08:47:50 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[36mSection Load (0.8ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.0ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.6ms)
+Completed 200 OK in 137ms (Views: 131.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/projects/edit/1" for 204.155.175.246 at 2016-06-14 09:08:45 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  Rendered projects/_form.html.erb (6.3ms)
+  Rendered projects/edit.html.erb within layouts/admin (8.1ms)
+Completed 200 OK in 113ms (Views: 110.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/access/login" for 204.155.175.248 at 2016-06-14 09:08:49 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 105ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/show/allsums" for 204.155.175.80 at 2016-06-14 09:09:01 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[36mSection Load (0.9ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.2ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.1ms)
+Completed 200 OK in 125ms (Views: 120.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/projects/edit/1" for 204.155.175.246 at 2016-06-14 12:23:48 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  Rendered projects/_form.html.erb (6.9ms)
+  Rendered projects/edit.html.erb within layouts/admin (9.0ms)
+Completed 200 OK in 131ms (Views: 128.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/pages.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.244 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.247 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin.self-10b95cdf7f92a299c09432881b08aca7ec628de066da5282eb77e617838240f8.css?body=1" for 204.155.175.247 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.247 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.244 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-f4bb5cc75419e8b730976d679d7cd687855843624a605f760369791ee24bc0b0.css?body=1" for 204.155.175.246 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.244 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.247 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-c1c8608c36ace009a4460fe384614c3753b9e3c10ca1664ee9e7121a9af03468.css?body=1" for 204.155.175.247 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 204.155.175.244 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 204.155.175.246 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 204.155.175.244 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 204.155.175.247 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 204.155.175.247 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 204.155.175.247 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 204.155.175.244 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 204.155.175.247 at 2016-06-14 12:23:49 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 204.155.175.247 at 2016-06-14 12:23:50 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 204.155.175.246 at 2016-06-14 12:23:50 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 204.155.175.244 at 2016-06-14 12:23:50 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 204.155.175.246 at 2016-06-14 12:23:50 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 204.155.175.244 at 2016-06-14 12:23:50 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 204.155.175.247 at 2016-06-14 12:23:50 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 204.155.175.244 at 2016-06-14 12:23:50 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.246 at 2016-06-14 12:23:50 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 204.155.175.247 at 2016-06-14 12:23:51 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-345b58257c005097540eb65c1894467e02e82a658532b90119f834f250539ab1.js?body=1" for 204.155.175.246 at 2016-06-14 12:23:51 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.244 at 2016-06-14 12:23:51 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.246 at 2016-06-14 12:23:51 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.244 at 2016-06-14 12:23:51 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.246 at 2016-06-14 12:23:51 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-de3615060568b463d43b07d97e54e44d624bb66c323372bf19f0d7cab7415efb.js?body=1" for 204.155.175.82 at 2016-06-14 12:23:51 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 204.155.175.244 at 2016-06-14 12:23:51 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/projects/edit/1" for 204.155.175.248 at 2016-06-14 15:08:31 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"
+  Rendered application/_error_messages.html.erb (0.2ms)
+  Rendered projects/_form.html.erb (6.4ms)
+  Rendered projects/edit.html.erb within layouts/admin (8.2ms)
+Completed 200 OK in 5265ms (Views: 5262.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/access.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.237 at 2016-06-14 15:08:36 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-f4bb5cc75419e8b730976d679d7cd687855843624a605f760369791ee24bc0b0.css?body=1" for 204.155.175.237 at 2016-06-14 15:08:36 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eebf46a4e5f8809337be17a6ae0c492d119d9e0f16c6546a223323304b2fde1a.css?body=1" for 204.155.175.237 at 2016-06-14 15:08:36 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin.self-10b95cdf7f92a299c09432881b08aca7ec628de066da5282eb77e617838240f8.css?body=1" for 204.155.175.237 at 2016-06-14 15:08:36 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.237 at 2016-06-14 15:08:36 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:37 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:37 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:37 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:37 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:37 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:37 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:37 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 204.155.175.238 at 2016-06-14 15:08:37 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:37 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 204.155.175.238 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-345b58257c005097540eb65c1894467e02e82a658532b90119f834f250539ab1.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 204.155.175.238 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:38 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-de3615060568b463d43b07d97e54e44d624bb66c323372bf19f0d7cab7415efb.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:39 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:39 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:39 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 204.155.175.237 at 2016-06-14 15:08:39 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/projects/edit/1" for 204.155.175.241 at 2016-06-14 15:09:28 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  Rendered projects/_form.html.erb (8.0ms)
+  Rendered projects/edit.html.erb within layouts/admin (10.3ms)
+Completed 200 OK in 130ms (Views: 127.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/access.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.82 at 2016-06-14 15:09:28 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.82 at 2016-06-14 15:09:28 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eebf46a4e5f8809337be17a6ae0c492d119d9e0f16c6546a223323304b2fde1a.css?body=1" for 204.155.175.82 at 2016-06-14 15:09:28 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin.self-10b95cdf7f92a299c09432881b08aca7ec628de066da5282eb77e617838240f8.css?body=1" for 204.155.175.82 at 2016-06-14 15:09:28 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-f4bb5cc75419e8b730976d679d7cd687855843624a605f760369791ee24bc0b0.css?body=1" for 204.155.175.82 at 2016-06-14 15:09:28 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 204.155.175.241 at 2016-06-14 15:09:28 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:28 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:29 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:29 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:29 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:29 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:29 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:29 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:29 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:29 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:29 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 204.155.175.247 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 204.155.175.241 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700

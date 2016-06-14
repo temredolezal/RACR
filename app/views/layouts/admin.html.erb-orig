@@ -11,8 +11,8 @@
     <div id="main">
       <div id="navigation">
         <ul>
-        <li><br><%= link_to("<< Admin Site", {:controller => 'access', :action => 'index'}, :class => 'btn btn-custom') %></li>
-        <li><%= link_to("<< Public Site", {:controller => 'public', :action => 'index'}, :class => 'btn btn-custom') %></li>
+        <li><br><%= link_to("<< Admin Site", {:controller => 'access', :action => 'index'}, :class => 'btn btn-custom2') %></li>
+        <li><%= link_to("<< Public Site", {:controller => 'public', :action => 'index'}, :class => 'btn btn-custom2') %></li>
         </ul>
         <%#= render(:partial => 'layouts/navigation', :locals => {:subjects => @subjects}) %>
       </div>

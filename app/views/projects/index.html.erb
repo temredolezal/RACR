@@ -3,7 +3,7 @@
     <h2>All QA Projects</h2>
     
     <div class="links btn-group">
-      <%= link_to(image_tag('plus_sign.png', :size => '11x11', :alt => '+') + " Add New Project", {:action => 'new'}, :class => 'btn btn-custom navbar-right') %>
+      <%= link_to(image_tag('plus_sign.png', :size => '11x11', :alt => '+') + " Add New Project", {:action => 'new'}, :class => 'btn btn-custom2 navbar-right') %>
     </div>
 
     <h3><%= pluralize(@projects.size, 'project') %> found</h3>
@@ -22,27 +22,27 @@
         <td><%= project.position %></td>
         <td><%= project.name %><br>
           <div class="links btn-group">
-            <%= link_to("View Details", {:action => 'show', :id => project.id}, :class => 'btn btn-custom') %>
+            <%= link_to("View Details", {:action => 'show', :id => project.id}, :class => 'btn btn-custom2') %>
           </div>
         </td>
         <td class="center"><%= status_tag(project.visible) %></td>
         <td class="center"><%= project.sections.size %><br>
           <div class="links btn-group">
-            <%= link_to("View Sections", {:controller => 'sections', :project_id => project.id}, :class => 'btn btn-custom') %>
+            <%= link_to("View Sections", {:controller => 'sections', :project_id => project.id}, :class => 'btn btn-custom2') %>
           </div>
         </td>
         <!--<td class="center"><%#= page.sections.size %></td>-->
         <td class="actions">
           <div class="links btn-group">
-            <%#= link_to("View Project Detail", {:action => 'show', :id => subject.id}, :class => 'btn btn-custom') %>
-            <%= link_to("Edit Project", {:action => 'edit', :id => project.id}, :class => 'btn btn-custom') %><br>
-            <%= link_to("Delete Project", {:action => 'delete', :id => project.id}, :class => 'btn btn-custom') %>
+            <%#= link_to("View Project Detail", {:action => 'show', :id => subject.id}, :class => 'btn btn-custom2') %>
+            <%= link_to("Edit Project", {:action => 'edit', :id => project.id}, :class => 'btn btn-custom2') %><br>
+            <%= link_to("Delete Project", {:action => 'delete', :id => project.id}, :class => 'btn btn-custom2') %>
             </div>
         </td>
         <!--<td class="actions">
           <div class="links btn-group">
-            <%#= link_to("Edit Project", {:action => 'edit', :id => subject.id}, :class => 'btn btn-custom') %>
-            <%#= link_to("Delete Project", {:action => 'delete', :id => subject.id}, :class => 'btn btn-custom') %>
+            <%#= link_to("Edit Project", {:action => 'edit', :id => subject.id}, :class => 'btn btn-custom2') %>
+            <%#= link_to("Delete Project", {:action => 'delete', :id => subject.id}, :class => 'btn btn-custom2') %>
           </div>
         </td>-->
       </tr>

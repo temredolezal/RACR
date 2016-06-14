@@ -1,7 +1,8 @@
 	<% @page_title = "Delete Page" %>
 	<br>
 	<div class="links btn-group">
-		<%= link_to("<< Back to Pages List", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom') %>
+		<%= link_to("<< Back", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom2') %>
+		<%#= link_to("<< Back to Pages List", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom2') %>
 	</div>
 
 	  <h2>Delete Page</h2>
@@ -11,7 +12,7 @@
 	    <h3>Are you sure you want to permanently delete the "<%= @page.name %>" Page?</h3>
 		<br>
 	    <div class="links btn-group">
-	    	<%= submit_tag("Yes, Delete Page", :class => 'btn btn-custom') %>
+	    	<%= submit_tag("Yes, Delete Page", :class => 'btn btn-custom2') %>
 	    </div>
 
 	  <% end %>

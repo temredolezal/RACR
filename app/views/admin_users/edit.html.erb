@@ -1,7 +1,7 @@
 	<% @page_title = "Edit Admin User: #{@admin_user.name}" -%>
 	<br>
 	<div class="links btn-group">
-		<%= link_to("<< Back to Admin Users List", {:action => 'index'}, :class => 'btn btn-custom') %>
+		<%= link_to("<< Back to Admin Users List", {:action => 'index'}, :class => 'btn btn-custom2') %>
 	</div>
 
 	<h2>Edit Admin User: <%= @admin_user.name %></h2>
@@ -11,6 +11,6 @@
 	<%= render(:partial => 'form', :locals => {:f => f} ) %>
 	<br>
 		<div class="links btn-group">
-	    	<%= submit_tag('Update Admin User', :class => 'btn btn-custom') %>
+	    	<%= submit_tag('Update Admin User', :class => 'btn btn-custom2') %>
 	    </div>
 	<% end %>

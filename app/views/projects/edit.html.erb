@@ -1,7 +1,8 @@
 	<% @page_title = "Update Project" %>
   <br>
 	<div class="links btn-group">
-		<%= link_to("<< Back to Projects List", {:action => 'index'}, :class => 'btn btn-custom') %>
+		<%= link_to("<< Back", {:action => 'index'}, :class => 'btn btn-custom2') %>
+		<%#= link_to("<< Back to Projects List", {:action => 'index'}, :class => 'btn btn-custom2') %>
 	</div>
 
 	  <h2>Update Project</h2>
@@ -11,7 +12,7 @@
 	    <%= render(:partial => "form", :locals => {:f => f}) %>
 	    <br>
 	    <div class="links btn-group">
-		    <%= submit_tag("Update Project", :class => 'btn btn-custom') %>
+		    <%= submit_tag("Update Project", :class => 'btn btn-custom2') %>
 		</div>
 
 	  <% end %>

@@ -1,7 +1,8 @@
   <% @page_title = "Show Page" %>
   <br>
   <div class="links btn-group">
-    <%= link_to("<< Back to Pages List", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom') %>
+    <%= link_to("<< Back", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom2') %>
+    <%#= link_to("<< Back to Pages List", {:action => 'index', :section_id => @section.id}, :class => 'btn btn-custom2') %>
   </div>
 
     <h2>Page Detail</h2>
@@ -47,8 +48,8 @@
         <th>Actions</th>
         <td>
           <div class="links btn-group">
-            <%= link_to("Edit Page", {:action => 'edit', :id => @page.id, :section_id => @section.id}, :class => 'btn btn-custom') %><br>
-            <%= link_to("Delete Page", {:action => 'delete', :id => @page.id, :section_id => @section.id}, :class => 'btn btn-custom') %>
+            <%= link_to("Edit Page", {:action => 'edit', :id => @page.id, :section_id => @section.id}, :class => 'btn btn-custom2') %><br>
+            <%= link_to("Delete Page", {:action => 'delete', :id => @page.id, :section_id => @section.id}, :class => 'btn btn-custom2') %>
           </div>
         </td>
       </tr>

@@ -1,7 +1,8 @@
   <% @page_title = "Show Section" %>
 <br>
   <div class="links btn-group">
-    <%= link_to("<< Back to Section List", {:action => 'index', :project_id => @project.id}, :class => 'btn btn-custom') %>
+    <%= link_to("<< Back", {:action => 'index', :project_id => @project.id}, :class => 'btn btn-custom2') %>
+    <%#= link_to("<< Back to Section List", {:action => 'index', :project_id => @project.id}, :class => 'btn btn-custom2') %>
   </div>
   
     <h2>Section Detail View</h2>
@@ -47,9 +48,9 @@
         <th>Actions</th>
         <td>
           <div class="links btn-group">
-            <%#= link_to("View Section Pages", {:controller => 'sections', :page_id => @page.id}, :class => 'btn btn-custom') %>
-            <%= link_to("Edit Section", {:action => 'edit', :id => @section.id, :project_id => @project.id}, :class => 'btn btn-custom') %><br>
-            <%= link_to("Delete Section", {:action => 'delete', :id => @section.id, :project_id => @project.id}, :class => 'btn btn-custom') %>
+            <%#= link_to("View Section Pages", {:controller => 'sections', :page_id => @page.id}, :class => 'btn btn-custom2') %>
+            <%= link_to("Edit Section", {:action => 'edit', :id => @section.id, :project_id => @project.id}, :class => 'btn btn-custom2') %><br>
+            <%= link_to("Delete Section", {:action => 'delete', :id => @section.id, :project_id => @project.id}, :class => 'btn btn-custom2') %>
           </div>
 </td>
       </tr>

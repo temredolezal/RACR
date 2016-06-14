@@ -67,7 +67,7 @@ input[type=checkbox] {
 #navigation ul li { margin-bottom: 0.5em; }
 #navigation ul ul { margin: 0.5em 0 0 1em; font-size: 0.9em; }
 #navigation a { text-decoration: none; padding: 1px 3px;}
-#navigation a:hover { background: #F2DC87; }
+/* #navigation a:hover { background: #333; } */
 
 /* Public */
 #public { font-size: 1.4em; }
@@ -76,7 +76,7 @@ input[type=checkbox] {
 #public ul ul { margin: 3px 0; padding-top: 0; }
 #public ul li ul li { margin-left: 12px; padding-top: 0; }
 #public a { text-decoration: none; padding: ;}
-#public a:hover { background: #F2DC87; }
+/* #public a:hover { background: #F2DC87; } */
 #public div.links { margin: 20px 0 0 20px; }
 
 /* Content */

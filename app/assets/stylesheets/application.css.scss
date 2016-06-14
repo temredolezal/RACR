@@ -62,7 +62,8 @@ table tr th { padding: 6px 6px 3px 6px; font-size: 1.4em; min-width: 125px; }
 	.navbar-nav > li > a {
 		color: #222;
 		&:hover {
-			color: darken(#f1c40f, 5%);
+			color: #993120;
+			/*color: darken(#f1c40f, 5%);*/
 			transition: 0.5s;
 		}
 	}
@@ -72,32 +73,50 @@ table tr th { padding: 6px 6px 3px 6px; font-size: 1.4em; min-width: 125px; }
 		.navbar-brand {
 			color: #222;
 			letter-spacing: 1.4px;
+			font-size: 3.0em;
 		}
 
 	}
 
 	.dropdown-menu > li > a:hover {
-		background-color: darken(#f1c40f, 5%);
+		background-color: #333;
 		color: #fff;
 	}
 
 	.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
-		background-color: darken(#f1c40f, 5%);
+		background-color: #333;
 		color: #fff;	
 	}
 
 }
 
 .dropdown-menu > .active > a {
-	background-color: #f1c40f;
+	background-color: #333;
 	color: #fff;
 }
 
 
 /* Button/link styles */
 
+.btn {
+	font-size: 11px;
+}
+
+
 .btn-custom {
-	color: darken(#f1c40f, 5%);
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #222;
+	/*padding: 5px 15px;*/
+	border-radius: 5px;
+	font-family: 'Ubuntu', sans-serif;
+	&:hover {
+		text-decoration: none;
+		background-color: #333;
+		color: #fff;
+		transition: 0.5s;
+
+	/*color: darken(#f1c40f, 5%);
 	background-color: #fff;
 	border: 1px solid darken(#f1c40f, 5%);
 	padding: 8px 20px;
@@ -107,7 +126,7 @@ table tr th { padding: 6px 6px 3px 6px; font-size: 1.4em; min-width: 125px; }
 		text-decoration: none;
 		background-color: darken(#f1c40f, 5%);
 		color: #fff;
-		transition: 0.5s;
+		transition: 0.5s;*/
 	}
 }
 
@@ -115,7 +134,7 @@ table tr th { padding: 6px 6px 3px 6px; font-size: 1.4em; min-width: 125px; }
 	color: #333;
 	background-color: #fff;
 	border: 1px solid #222;
-	padding: 8px 20px;
+	padding: 2px 5px;
 	border-radius: 5px;
 	font-family: 'Ubuntu', sans-serif;
 	&:hover {

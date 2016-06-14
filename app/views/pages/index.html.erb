@@ -1,13 +1,14 @@
   <% @page_title = "Section Pages" %>
   <br>
       <div class="links btn-group">
-        <%= link_to("<< Back to Sections List", {:controller => 'sections', :action => 'index', :project_id => @section.project_id}, :class => 'btn btn-custom') %>
+        <%= link_to("<< Back", {:controller => 'sections', :action => 'index', :project_id => @section.project_id}, :class => 'btn btn-custom2') %>
+        <%#= link_to("<< Back to Sections List", {:controller => 'sections', :action => 'index', :project_id => @section.project_id}, :class => 'btn btn-custom2') %>
       </div>
 
     <h2>All Pages in "<%= @section.name %>" Section</h2>
 
     <div class="links btn-group">
-      <%= link_to(image_tag('plus_sign.png', :size => '11x11', :class => 'space', :alt => '+') + "Add New Page", {:action => 'new', :section_id => @section.id, :section_id => @section.id}, :class => 'btn btn-custom navbar-right') %>
+      <%= link_to(image_tag('plus_sign.png', :size => '11x11', :class => 'space', :alt => '+') + "Add New Page", {:action => 'new', :section_id => @section.id, :section_id => @section.id}, :class => 'btn btn-custom2 navbar-right') %>
     </div>
 
     <h3><%= pluralize(@pages.size, 'pages') %> found</h3>
@@ -25,15 +26,15 @@
         <td class="center"><%= page.position %></td>
         <td><%= page.name %><br>
           <div class="links btn-group">
-            <%= link_to("Page Detail", {:action => 'show', :id => page.id, :section_id => @section.id}, :class => 'btn btn-custom') %>
+            <%= link_to("Page Detail", {:action => 'show', :id => page.id, :section_id => @section.id}, :class => 'btn btn-custom2') %>
           </div>
         </td>
         <td><%= page.content_type %></td>
         <td class="center"><%= status_tag(page.visible) %></td>
         <td class="actions">
           <div class="links btn-group">
-            <%= link_to("Edit Page", {:action => 'edit', :id => page.id, :section_id => @section.id}, :class => 'btn btn-custom') %><br>
-            <%= link_to("Delete Page", {:action => 'delete', :id => page.id, :section_id => @section.id}, :class => 'btn btn-custom') %>
+            <%= link_to("Edit Page", {:action => 'edit', :id => page.id, :section_id => @section.id}, :class => 'btn btn-custom2') %><br>
+            <%= link_to("Delete Page", {:action => 'delete', :id => page.id, :section_id => @section.id}, :class => 'btn btn-custom2') %>
           </div>
         </td>
       </tr>

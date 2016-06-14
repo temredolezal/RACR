@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>QA Projects<%= " | #{@page_title}" if @page_title %></title>
+    <title>RACR<%= " | #{@page_title}" if @page_title %></title>
    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -12,12 +12,12 @@
     <div class="container">
 
       <div class="navbar-header">
-        <%= link_to "All QA Projects", {:controller => 'access', :action => 'index'}, class: "navbar-brand" %>
+        <%= link_to "RACR", {:controller => 'access', :action => 'index'}, class: "navbar-brand" %>
       </div>
 
       <ul class="nav navbar-nav">
-        <li><%= link_to "Admin Site", {:controller => 'access', :action => 'index'} %></li>
-        <li><%= link_to "Public Site", {:controller => 'public', :action => 'index'} %></li>
+        <li><%= link_to "Admin", {:controller => 'access', :action => 'index'} %></li>
+        <li><%= link_to "Projects", {:controller => 'public', :action => 'index'} %></li>
       </ul>
 
     </div>

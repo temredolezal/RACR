@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>QA Projects Admin | <%= @page_title || "Admin" %></title>
+    <title>RACR Admin | <%= @page_title || "Admin" %></title>
    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -12,12 +12,12 @@
       <div class="container">
 
         <div class="navbar-header">
-          <%= link_to "QA Projects Admin", {:controller => 'access', :action => 'index'}, class: "navbar-brand" %>
+          <%= link_to "RACR", {:controller => 'access', :action => 'index'}, class: "navbar-brand" %>
         </div>
 
         <ul class="nav navbar-nav">
-          <li><%= link_to "Admin Site", {:controller => 'access', :action => 'index'} %></li>
-          <li><%= link_to "Public Site", {:controller => 'public', :action => 'index'} %></li>
+          <li><%= link_to "Admin", {:controller => 'access', :action => 'index'} %></li>
+          <li><%= link_to "Projects", {:controller => 'public', :action => 'index'} %></li>
         </ul>
 
     </div>
@@ -33,11 +33,11 @@
 
     <div id="public" class="col-md-2">
       <div class="links btn-group">
-        <%= link_to "Public Menu", {:controller => 'public', :action => 'index'}, class: "btn btn-custom" %><br><br>
-        <%= link_to "Admin Menu", {:controller => 'access', :action => 'index'}, class: "btn btn-custom" %><br><br><br>
+        <%= link_to "Admin", {:controller => 'access', :action => 'index'}, class: "btn btn-custom2" %><br><br>
+        <%= link_to "Projects", {:controller => 'public', :action => 'index'}, class: "btn btn-custom2" %><br><br><br>
 
-        <%= link_to("Manage Projects", {:controller => 'projects'}, :class => 'btn btn-custom') %><br><br>
-        <%= link_to("Manage Admin Users", {:controller => 'admin_users'}, :class => 'btn btn-custom') %><br><br>
+        <%#= link_to("Manage Projects", {:controller => 'projects'}, :class => 'btn btn-custom2') %><br><br>
+        <%#= link_to("Manage Admin Users", {:controller => 'admin_users'}, :class => 'btn btn-custom2') %><br><br>
       </div>
     </div>
 

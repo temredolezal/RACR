@@ -1,7 +1,8 @@
 	<% @page_title = "Edit Section" %>
 	<br>
 	<div class="links btn-group">
-		<%= link_to("<< Back to Section List", {:action => 'index', :project_id => @project.id}, :class => 'btn btn-custom') %>
+		<%= link_to("<< Back", {:action => 'index', :project_id => @project.id}, :class => 'btn btn-custom2') %>
+		<%#= link_to("<< Back to Section List", {:action => 'index', :project_id => @project.id}, :class => 'btn btn-custom2') %>
 	</div>
 
 	  <h2>Update Section</h2>
@@ -11,7 +12,7 @@
 	    <%= render(:partial => "form", :locals => {:f => f}) %>
 	<br>
 		<div class="links btn-group">
-	    	<%= submit_tag("Update Section", :class => 'btn btn-custom') %>
+	    	<%= submit_tag("Update Section", :class => 'btn btn-custom2') %>
 	    </div>
 
 	  <% end %>
