@@ -1674,3 +1674,1662 @@ Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 12
 
 
 Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-de3615060568b463d43b07d97e54e44d624bb66c323372bf19f0d7cab7415efb.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 204.155.175.82 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.243 at 2016-06-14 15:09:30 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-345b58257c005097540eb65c1894467e02e82a658532b90119f834f250539ab1.js?body=1" for 204.155.175.241 at 2016-06-14 15:09:31 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin" for 204.155.175.243 at 2016-06-14 15:09:34 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 127ms (Views: 125.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 204.155.175.80 at 2016-06-14 15:09:36 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[36mProject Load (0.8ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (4.9ms)
+Completed 200 OK in 116ms (Views: 113.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin" for 204.155.175.239 at 2016-06-14 15:09:39 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 103ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 204.155.175.83 at 2016-06-14 16:32:54 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (2.0ms)
+Completed 200 OK in 3200ms (Views: 3198.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 204.155.175.83 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-31c56900580b89e2d43fa4dfb9ad4f646d5f4adf1928624b98f4daaa3fb813d9.css?body=1" for 204.155.175.243 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.243 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5298805d1d5ff7b9882685c94413e5b72be2ec9467c6b3f3698e8506aaaac688.css?body=1" for 204.155.175.238 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin.self-10b95cdf7f92a299c09432881b08aca7ec628de066da5282eb77e617838240f8.css?body=1" for 204.155.175.247 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.238 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 204.155.175.243 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 204.155.175.238 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 204.155.175.243 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 204.155.175.247 at 2016-06-14 16:32:58 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 204.155.175.238 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 204.155.175.243 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 204.155.175.247 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 204.155.175.243 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 204.155.175.238 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 204.155.175.243 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 204.155.175.247 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 204.155.175.243 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 204.155.175.243 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 204.155.175.243 at 2016-06-14 16:32:59 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 204.155.175.243 at 2016-06-14 16:33:00 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.243 at 2016-06-14 16:33:00 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.247 at 2016-06-14 16:33:00 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-345b58257c005097540eb65c1894467e02e82a658532b90119f834f250539ab1.js?body=1" for 204.155.175.238 at 2016-06-14 16:33:00 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.243 at 2016-06-14 16:33:00 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-de3615060568b463d43b07d97e54e44d624bb66c323372bf19f0d7cab7415efb.js?body=1" for 204.155.175.247 at 2016-06-14 16:33:00 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.238 at 2016-06-14 16:33:00 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 204.155.175.238 at 2016-06-14 16:33:00 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.243 at 2016-06-14 16:33:00 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/projects" for 204.155.175.245 at 2016-06-14 16:33:10 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  [1m[36mProject Load (0.8ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY projects.position ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (36.9ms)
+Completed 200 OK in 158ms (Views: 149.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/plus_sign-b7cc7f95073832695f7b3f55aad5782d185bb133bc5581bdf737931d9059822a.png" for 204.155.175.245 at 2016-06-14 16:33:10 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 204.155.175.239 at 2016-06-14 16:33:14 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.6ms)
+  [1m[35mProject Load (0.7ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.6ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (22.2ms)
+Completed 200 OK in 150ms (Views: 145.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 204.155.175.247 at 2016-06-14 16:33:15 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (8.0ms)
+Completed 200 OK in 157ms (Views: 152.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/show/allsums" for 204.155.175.244 at 2016-06-14 16:33:22 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (0.7ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.7ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (28.7ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (6.3ms)
+Completed 200 OK in 138ms (Views: 131.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/show/allgherkin" for 204.155.175.247 at 2016-06-14 16:33:25 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allgherkin"}
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "allgherkin"], ["visible", "t"]]
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 2], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.2ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+/home/dolezalt/RACR/app/views/pages/index.html.erb:11: warning: duplicated key at line 11 ignored: :section_id
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (7.4ms)
+Completed 200 OK in 113ms (Views: 107.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/show/allsums" for 204.155.175.80 at 2016-06-14 16:33:47 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.1ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (6.3ms)
+Completed 200 OK in 115ms (Views: 110.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/show/confluxsums" for 204.155.175.83 at 2016-06-14 16:33:50 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"confluxsums"}
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "confluxsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 3], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (1.9ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (6.3ms)
+Completed 200 OK in 116ms (Views: 110.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/admin" for 204.155.175.247 at 2016-06-14 16:34:09 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (1.9ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 204.155.175.81 at 2016-06-14 16:34:11 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY projects.position ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (9.8ms)
+Completed 200 OK in 108ms (Views: 105.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/sections?project_id=2" for 204.155.175.83 at 2016-06-14 16:34:16 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"2"}
+  [1m[35mProject Load (0.4ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 2]]
+  [1m[35mSection Load (0.6ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC  [["project_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 3]]
+  Rendered sections/index.html.erb within layouts/admin (9.8ms)
+Completed 200 OK in 112ms (Views: 107.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/pages?section_id=3" for 204.155.175.246 at 2016-06-14 16:34:21 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"3"}
+  [1m[35mSection Load (0.4ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 3]]
+  [1m[35mPage Load (0.6ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC  [["section_id", 3]]
+  Rendered pages/index.html.erb within layouts/admin (8.3ms)
+Completed 200 OK in 103ms (Views: 98.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pages/edit/4?section_id=3" for 204.155.175.83 at 2016-06-14 16:34:26 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Parameters: {"section_id"=>"3", "id"=>"4"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mPage Load (0.2ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages"
+  Rendered application/_error_messages.html.erb (0.5ms)
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2]]
+  Rendered pages/_form.html.erb (14.5ms)
+  Rendered pages/edit.html.erb within layouts/admin (17.5ms)
+Completed 200 OK in 118ms (Views: 112.8ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/pages/update/4?section_id=3" for 204.155.175.80 at 2016-06-14 16:34:49 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"3", "name"=>"Temre's Summary", "position"=>"1", "visible"=>"1", "content_type"=>"text", "content"=>"Seitan meh pug neutra. Sriracha 3 wolf moon brunch, meditation master cleanse man bun heirloom truffaut raw denim. Direct trade single-origin coffee scenester, freegan kitsch gochujang kickstarter hashtag. Church-key pitchfork chillwave, cronut cred quinoa stumptown authentic chartreuse tacos sustainable shoreditch heirloom fingerstache normcore. Butcher master cleanse literally narwhal, franzen bitters sriracha taxidermy cardigan gentrify listicle everyday carry gochujang four dollar toast 8-bit. Ennui wolf biodiesel listicle, disrupt hella portland typewriter put a bird on it gochujang drinking vinegar waistcoat viral lumbersexual. Whatever waistcoat deep v, next level iPhone YOLO wayfarers flannel offal synth tilde quinoa before they sold out schlitz skateboard."}, "commit"=>"Update Page", "section_id"=>"3", "id"=>"4"}
+/home/dolezalt/RACR/app/views/pages/index.html.erb:11: warning: duplicated key at line 11 ignored: :section_id
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "pages" SET "content" = ?, "updated_at" = ? WHERE "pages"."id" = ?[0m  [["content", "Seitan meh pug neutra. Sriracha 3 wolf moon brunch, meditation master cleanse man bun heirloom truffaut raw denim. Direct trade single-origin coffee scenester, freegan kitsch gochujang kickstarter hashtag. Church-key pitchfork chillwave, cronut cred quinoa stumptown authentic chartreuse tacos sustainable shoreditch heirloom fingerstache normcore. Butcher master cleanse literally narwhal, franzen bitters sriracha taxidermy cardigan gentrify listicle everyday carry gochujang four dollar toast 8-bit. Ennui wolf biodiesel listicle, disrupt hella portland typewriter put a bird on it gochujang drinking vinegar waistcoat viral lumbersexual. Whatever waistcoat deep v, next level iPhone YOLO wayfarers flannel offal synth tilde quinoa before they sold out schlitz skateboard."], ["updated_at", "2016-06-14 23:34:49.820421"], ["id", 4]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ? AND (position = 1)  [["section_id", 3]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sections" SET "updated_at" = '2016-06-14 23:34:49.824715' WHERE "sections"."id" = ?  [["id", 3]]
+  [1m[36m (107.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/pages/show/4?section_id=3
+Completed 302 Found in 118ms (ActiveRecord: 109.2ms)
+
+
+Started GET "/pages/show/4?section_id=3" for 204.155.175.80 at 2016-06-14 16:34:50 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#show as HTML
+  Parameters: {"section_id"=>"3", "id"=>"4"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered pages/show.html.erb within layouts/admin (2.8ms)
+Completed 200 OK in 101ms (Views: 98.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages?section_id=3" for 204.155.175.244 at 2016-06-14 16:35:03 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"3"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 3]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC  [["section_id", 3]]
+  Rendered pages/index.html.erb within layouts/admin (5.6ms)
+Completed 200 OK in 107ms (Views: 103.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/new?section_id=3" for 204.155.175.248 at 2016-06-14 16:35:10 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#new as HTML
+  Parameters: {"section_id"=>"3"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mProject Load (0.1ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "pages"[0m
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[35mSection Load (0.5ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC  [["project_id", 2]]
+  Rendered pages/_form.html.erb (4.7ms)
+  Rendered pages/new.html.erb within layouts/admin (8.0ms)
+Completed 200 OK in 109ms (Views: 104.6ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/pages/create?section_id=3" for 204.155.175.82 at 2016-06-14 16:35:37 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"3", "name"=>"Josh's Summaries", "position"=>"1", "visible"=>"1", "content_type"=>"text", "content"=>"Blue bottle wolf asymmetrical, listicle hammock affogato church-key pork belly. Flannel hella DIY chambray, migas meh shabby chic pinterest cornhole mixtape whatever meditation banh mi butcher chartreuse. VHS green juice brunch kogi, DIY sriracha etsy truffaut tousled tote bag echo park keytar banh mi single-origin coffee salvia. Helvetica street art next level, forage photo booth narwhal everyday carry four loko fingerstache drinking vinegar disrupt 3 wolf moon hella schlitz 8-bit. Before they sold out fashion axe 8-bit, chillwave vinyl asymmetrical tumblr. Gastropub post-ironic keffiyeh, quinoa dreamcatcher before they sold out gentrify put a bird on it everyday carry. Scenester lo-fi truffaut, waistcoat raw denim quinoa tousled tofu crucifix."}, "commit"=>"Create Page", "section_id"=>"3"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "pages" SET position = (position + 1) WHERE "pages"."section_id" = ? AND (position >= 1)[0m  [["section_id", 3]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pages" ("section_id", "name", "position", "visible", "content_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["section_id", 3], ["name", "Josh's Summaries"], ["position", 1], ["visible", "t"], ["content_type", "text"], ["content", "Blue bottle wolf asymmetrical, listicle hammock affogato church-key pork belly. Flannel hella DIY chambray, migas meh shabby chic pinterest cornhole mixtape whatever meditation banh mi butcher chartreuse. VHS green juice brunch kogi, DIY sriracha etsy truffaut tousled tote bag echo park keytar banh mi single-origin coffee salvia. Helvetica street art next level, forage photo booth narwhal everyday carry four loko fingerstache drinking vinegar disrupt 3 wolf moon hella schlitz 8-bit. Before they sold out fashion axe 8-bit, chillwave vinyl asymmetrical tumblr. Gastropub post-ironic keffiyeh, quinoa dreamcatcher before they sold out gentrify put a bird on it everyday carry. Scenester lo-fi truffaut, waistcoat raw denim quinoa tousled tofu crucifix."], ["created_at", "2016-06-14 23:35:37.127821"], ["updated_at", "2016-06-14 23:35:37.127821"]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sections" SET "updated_at" = '2016-06-14 23:35:37.132107' WHERE "sections"."id" = ?  [["id", 3]]
+  [1m[36m (82.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/pages?section_id=3
+Completed 302 Found in 92ms (ActiveRecord: 84.1ms)
+
+
+Started GET "/pages?section_id=3" for 204.155.175.82 at 2016-06-14 16:35:37 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"3"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 3]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC  [["section_id", 3]]
+  Rendered pages/index.html.erb within layouts/admin (9.6ms)
+Completed 200 OK in 109ms (Views: 105.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/sections?project_id=2" for 204.155.175.246 at 2016-06-14 16:35:46 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"2"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 2]]
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 3]]
+  Rendered sections/index.html.erb within layouts/admin (7.5ms)
+Completed 200 OK in 107ms (Views: 103.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/sections/new?project_id=2" for 204.155.175.243 at 2016-06-14 16:35:52 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#new as HTML
+  Parameters: {"project_id"=>"2"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[36mProject Load (0.7ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY position ASC[0m
+  Rendered sections/_form.html.erb (5.3ms)
+  Rendered sections/new.html.erb within layouts/admin (8.8ms)
+Completed 200 OK in 108ms (Views: 104.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/sections/create?project_id=2" for 204.155.175.82 at 2016-06-14 16:36:26 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "section"=>{"project_id"=>"2", "name"=>"Gherkin", "permalink"=>"confluxgherkin", "position"=>"1", "visible"=>"1"}, "commit"=>"Create Section", "project_id"=>"2"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSection Exists (0.2ms)[0m  SELECT  1 AS one FROM "sections" WHERE "sections"."permalink" = 'confluxgherkin' LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "sections" SET position = (position + 1) WHERE "sections"."project_id" = ? AND (position >= 1)[0m  [["project_id", 2]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "sections" ("project_id", "name", "permalink", "position", "visible", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["project_id", 2], ["name", "Gherkin"], ["permalink", "confluxgherkin"], ["position", 1], ["visible", "t"], ["created_at", "2016-06-14 23:36:26.406165"], ["updated_at", "2016-06-14 23:36:26.406165"]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "projects" SET "updated_at" = '2016-06-14 23:36:26.410616' WHERE "projects"."id" = ?  [["id", 2]]
+  [1m[36m (66.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/sections?project_id=2
+Completed 302 Found in 89ms (ActiveRecord: 67.8ms)
+
+
+Started GET "/sections?project_id=2" for 204.155.175.82 at 2016-06-14 16:36:26 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"2"}
+  [1m[35mProject Load (0.1ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 2]]
+  [1m[35mSection Load (0.5ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC  [["project_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 4]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 3]]
+  Rendered sections/index.html.erb within layouts/admin (11.9ms)
+Completed 200 OK in 112ms (Views: 108.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pages?section_id=4" for 204.155.175.82 at 2016-06-14 16:36:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"4"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 4]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC[0m  [["section_id", 4]]
+  Rendered pages/index.html.erb within layouts/admin (3.9ms)
+Completed 200 OK in 102ms (Views: 99.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/new?section_id=4" for 204.155.175.248 at 2016-06-14 16:36:36 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#new as HTML
+  Parameters: {"section_id"=>"4"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2]]
+  Rendered pages/_form.html.erb (4.7ms)
+  Rendered pages/new.html.erb within layouts/admin (6.8ms)
+Completed 200 OK in 103ms (Views: 98.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/pages/create?section_id=4" for 204.155.175.81 at 2016-06-14 16:37:01 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"4", "name"=>"Temre's Gherkin", "position"=>"1", "visible"=>"1", "content_type"=>"text", "content"=>"Quinoa pop-up vice skateboard cornhole pinterest. Locavore fixie paleo, lomo everyday carry schlitz pitchfork normcore cliche put a bird on it iPhone ennui before they sold out tofu. Kinfolk green juice cold-pressed, kickstarter messenger bag mlkshk forage lumbersexual waistcoat. Sriracha bushwick photo booth 90's. Mustache trust fund selfies, four dollar toast offal kale chips YOLO. Slow-carb aesthetic hashtag, affogato irony food truck taxidermy distillery gluten-free quinoa. Ramps authentic fingerstache biodiesel, etsy post-ironic XOXO intelligentsia meditation keffiyeh chartreuse pitchfork put a bird on it."}, "commit"=>"Create Page", "section_id"=>"4"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "pages" SET position = (position + 1) WHERE "pages"."section_id" = ? AND (position >= 1)  [["section_id", 4]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pages" ("section_id", "name", "position", "visible", "content_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["section_id", 4], ["name", "Temre's Gherkin"], ["position", 1], ["visible", "t"], ["content_type", "text"], ["content", "Quinoa pop-up vice skateboard cornhole pinterest. Locavore fixie paleo, lomo everyday carry schlitz pitchfork normcore cliche put a bird on it iPhone ennui before they sold out tofu. Kinfolk green juice cold-pressed, kickstarter messenger bag mlkshk forage lumbersexual waistcoat. Sriracha bushwick photo booth 90's. Mustache trust fund selfies, four dollar toast offal kale chips YOLO. Slow-carb aesthetic hashtag, affogato irony food truck taxidermy distillery gluten-free quinoa. Ramps authentic fingerstache biodiesel, etsy post-ironic XOXO intelligentsia meditation keffiyeh chartreuse pitchfork put a bird on it."], ["created_at", "2016-06-14 23:37:01.351131"], ["updated_at", "2016-06-14 23:37:01.351131"]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "sections" SET "updated_at" = '2016-06-14 23:37:01.354874' WHERE "sections"."id" = ?[0m  [["id", 4]]
+  [1m[35m (79.1ms)[0m  commit transaction
+Redirected to http://racr.azcentral.com/pages?section_id=4
+Completed 302 Found in 88ms (ActiveRecord: 80.2ms)
+
+
+Started GET "/pages?section_id=4" for 204.155.175.81 at 2016-06-14 16:37:01 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"4"}
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 4]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC[0m  [["section_id", 4]]
+  Rendered pages/index.html.erb within layouts/admin (5.2ms)
+Completed 200 OK in 103ms (Views: 100.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/new?section_id=4" for 204.155.175.83 at 2016-06-14 16:37:05 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#new as HTML
+  Parameters: {"section_id"=>"4"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2]]
+  Rendered pages/_form.html.erb (4.8ms)
+  Rendered pages/new.html.erb within layouts/admin (7.0ms)
+Completed 200 OK in 108ms (Views: 102.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/pages/create?section_id=4" for 204.155.175.81 at 2016-06-14 16:37:28 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"4", "name"=>"Josh's Gherkin", "position"=>"1", "visible"=>"1", "content_type"=>"text", "content"=>"Mustache godard roof party salvia, chartreuse viral everyday carry cold-pressed cornhole food truck scenester letterpress taxidermy try-hard. Pinterest cray jean shorts, ugh etsy salvia godard wayfarers celiac small batch. Keffiyeh humblebrag marfa put a bird on it biodiesel williamsburg, asymmetrical blue bottle umami franzen lomo you probably haven't heard of them. Pork belly mumblecore venmo, celiac locavore post-ironic paleo distillery poutine selfies shabby chic cardigan pabst. Bushwick cold-pressed distillery offal. Forage cardigan chia irony yr lumbersexual. Selvage four dollar toast mustache ethical bicycle rights."}, "commit"=>"Create Page", "section_id"=>"4"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "pages" SET position = (position + 1) WHERE "pages"."section_id" = ? AND (position >= 1)  [["section_id", 4]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pages" ("section_id", "name", "position", "visible", "content_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["section_id", 4], ["name", "Josh's Gherkin"], ["position", 1], ["visible", "t"], ["content_type", "text"], ["content", "Mustache godard roof party salvia, chartreuse viral everyday carry cold-pressed cornhole food truck scenester letterpress taxidermy try-hard. Pinterest cray jean shorts, ugh etsy salvia godard wayfarers celiac small batch. Keffiyeh humblebrag marfa put a bird on it biodiesel williamsburg, asymmetrical blue bottle umami franzen lomo you probably haven't heard of them. Pork belly mumblecore venmo, celiac locavore post-ironic paleo distillery poutine selfies shabby chic cardigan pabst. Bushwick cold-pressed distillery offal. Forage cardigan chia irony yr lumbersexual. Selvage four dollar toast mustache ethical bicycle rights."], ["created_at", "2016-06-14 23:37:28.555654"], ["updated_at", "2016-06-14 23:37:28.555654"]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "sections" SET "updated_at" = '2016-06-14 23:37:28.559351' WHERE "sections"."id" = ?[0m  [["id", 4]]
+  [1m[35m (82.1ms)[0m  commit transaction
+Redirected to http://racr.azcentral.com/pages?section_id=4
+Completed 302 Found in 91ms (ActiveRecord: 83.2ms)
+
+
+Started GET "/pages?section_id=4" for 204.155.175.81 at 2016-06-14 16:37:28 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"4"}
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 4]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC[0m  [["section_id", 4]]
+  Rendered pages/index.html.erb within layouts/admin (6.8ms)
+Completed 200 OK in 106ms (Views: 102.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 204.155.175.82 at 2016-06-14 16:37:31 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (7.3ms)
+Completed 200 OK in 107ms (Views: 104.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/show/confluxsums" for 204.155.175.248 at 2016-06-14 16:37:35 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"confluxsums"}
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "confluxsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 3], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.3ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (6.9ms)
+Completed 200 OK in 110ms (Views: 105.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/show/confluxgherkin" for 204.155.175.81 at 2016-06-14 16:37:40 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"confluxgherkin"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "confluxgherkin"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 4], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.3ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (7.0ms)
+Completed 200 OK in 109ms (Views: 103.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/admin" for 204.155.175.243 at 2016-06-14 16:42:27 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 98ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 204.155.175.82 at 2016-06-14 16:42:37 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.5ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (7.2ms)
+Completed 200 OK in 114ms (Views: 110.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 204.155.175.239 at 2016-06-14 16:46:18 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as */*
+  Rendered public/index.html.erb within layouts/public (0.5ms)
+  [1m[35mProject Load (0.8ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (8.8ms)
+Completed 200 OK in 112ms (Views: 109.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 204.155.175.243 at 2016-06-14 17:00:14 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.7ms)
+  [1m[36mProject Load (0.8ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (8.4ms)
+Completed 200 OK in 107ms (Views: 104.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/access/login" for 204.155.175.237 at 2016-06-14 17:00:21 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.9ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/show/allsums" for 204.155.175.246 at 2016-06-14 17:00:31 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (0.7ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (3.4ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (6.9ms)
+Completed 200 OK in 112ms (Views: 106.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 204.155.175.248 at 2016-06-14 19:43:29 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[36mProject Load (0.8ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (7.4ms)
+Completed 200 OK in 108ms (Views: 104.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/access.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin.self-10b95cdf7f92a299c09432881b08aca7ec628de066da5282eb77e617838240f8.css?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-31c56900580b89e2d43fa4dfb9ad4f646d5f4adf1928624b98f4daaa3fb813d9.css?body=1" for 204.155.175.239 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5298805d1d5ff7b9882685c94413e5b72be2ec9467c6b3f3698e8506aaaac688.css?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 204.155.175.239 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 204.155.175.82 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 204.155.175.236 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 204.155.175.82 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 204.155.175.239 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 204.155.175.236 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 204.155.175.239 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 204.155.175.236 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 204.155.175.82 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 204.155.175.239 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 204.155.175.236 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 204.155.175.82 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/access.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.236 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admin_users.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.239 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/demo.self-345b58257c005097540eb65c1894467e02e82a658532b90119f834f250539ab1.js?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.82 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/public.self-de3615060568b463d43b07d97e54e44d624bb66c323372bf19f0d7cab7415efb.js?body=1" for 204.155.175.82 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sections.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/subjects.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 204.155.175.236 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 204.155.175.248 at 2016-06-14 19:43:30 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin" for 204.155.175.239 at 2016-06-14 22:09:56 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+Redirected to http://racr.azcentral.com/access/login
+Filter chain halted as :confirm_logged_in rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.239 at 2016-06-14 22:09:56 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.9ms)
+Completed 200 OK in 97ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 204.155.175.243 at 2016-06-14 22:36:29 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[35mProject Load (0.8ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (7.5ms)
+Completed 200 OK in 105ms (Views: 102.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/access/login" for 204.155.175.238 at 2016-06-14 22:36:32 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 98ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 204.155.175.82 at 2016-06-14 22:36:43 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 98ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin_users" for 204.155.175.247 at 2016-06-14 22:36:48 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdminUsersController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mAdminUser Load (0.6ms)[0m  SELECT "admin_users".* FROM "admin_users"  ORDER BY last_name ASC, first_name ASC
+  Rendered admin_users/index.html.erb within layouts/admin (13.8ms)
+Completed 200 OK in 125ms (Views: 110.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin_users/new" for 204.155.175.248 at 2016-06-14 22:36:51 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdminUsersController#new as HTML
+  Rendered application/_error_messages.html.erb (0.1ms)
+  Rendered admin_users/_form.html.erb (7.3ms)
+  Rendered admin_users/new.html.erb within layouts/admin (10.6ms)
+Completed 200 OK in 109ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/show/allsums" for 204.155.175.248 at 2016-06-14 22:36:52 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.2ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (6.7ms)
+Completed 200 OK in 111ms (Views: 105.4ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/admin_users/create" for 204.155.175.83 at 2016-06-14 22:38:15 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdminUsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "admin_user"=>{"first_name"=>"Josh", "last_name"=>"Jones", "email"=>"josh.jones@gannett.com", "username"=>"joshjones", "password"=>"[FILTERED]"}, "commit"=>"Create Admin User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mAdminUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."username" = 'joshjones' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "admin_users" ("first_name", "last_name", "email", "username", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["first_name", "Josh"], ["last_name", "Jones"], ["email", "josh.jones@gannett.com"], ["username", "joshjones"], ["password_digest", "$2a$10$9sjhFfVtZX2Agr.QuSahNudZ1uCkFajvaN/JhZ1vOht26JmFNA.KW"], ["created_at", "2016-06-15 05:38:15.245237"], ["updated_at", "2016-06-15 05:38:15.245237"]]
+  [1m[36m (85.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/admin_users
+Completed 302 Found in 258ms (ActiveRecord: 86.1ms)
+
+
+Started GET "/admin_users" for 204.155.175.83 at 2016-06-14 22:38:15 -0700
+Cannot render console from 204.155.175.83! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdminUsersController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "admin_users"
+  [1m[36mAdminUser Load (0.6ms)[0m  [1mSELECT "admin_users".* FROM "admin_users"  ORDER BY last_name ASC, first_name ASC[0m
+  Rendered admin_users/index.html.erb within layouts/admin (7.4ms)
+Completed 200 OK in 100ms (Views: 98.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin_users/edit/2" for 204.155.175.247 at 2016-06-14 22:38:26 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AdminUsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mAdminUser Load (0.3ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered application/_error_messages.html.erb (0.1ms)
+  Rendered admin_users/_form.html.erb (3.9ms)
+  Rendered admin_users/edit.html.erb within layouts/admin (7.4ms)
+Completed 200 OK in 102ms (Views: 100.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for 204.155.175.239 at 2016-06-14 22:38:28 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 204.155.175.247 at 2016-06-15 09:04:26 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/access/login" for 204.155.175.248 at 2016-06-15 09:04:28 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#login as HTML
+  Rendered access/login.html.erb within layouts/admin (1.1ms)
+Completed 200 OK in 101ms (Views: 99.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/show/allsums" for 204.155.175.84 at 2016-06-15 09:04:47 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[36mSection Load (0.9ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.2ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (7.1ms)
+Completed 200 OK in 124ms (Views: 118.5ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/access/attempt_login" for 204.155.175.82 at 2016-06-15 11:51:04 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#attempt_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "username"=>"joshjones", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mAdminUser Load (1.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."username" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["username", "joshjones"]]
+Redirected to http://racr.azcentral.com/admin
+Completed 302 Found in 168ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/admin" for 204.155.175.82 at 2016-06-15 11:51:04 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 98ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 204.155.175.237 at 2016-06-15 11:51:08 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "projects"[0m
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects"  ORDER BY projects.position ASC
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (9.1ms)
+Completed 200 OK in 107ms (Views: 103.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/plus_sign-b7cc7f95073832695f7b3f55aad5782d185bb133bc5581bdf737931d9059822a.png" for 204.155.175.237 at 2016-06-15 11:51:08 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/projects/new" for 204.155.175.248 at 2016-06-15 11:52:34 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#new as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "projects"[0m
+  Rendered application/_error_messages.html.erb (0.1ms)
+  Rendered projects/_form.html.erb (7.3ms)
+  Rendered projects/new.html.erb within layouts/admin (10.2ms)
+Completed 200 OK in 106ms (Views: 102.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/projects/create" for 204.155.175.80 at 2016-06-15 11:54:28 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "project"=>{"name"=>"Series Project", "position"=>"1", "visible"=>"1", "created_at(2i)"=>"6", "created_at(3i)"=>"15", "created_at(1i)"=>"2016", "created_at(4i)"=>"11", "created_at(5i)"=>"52"}, "commit"=>"Create Project"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "projects" SET position = (position + 1) WHERE (1 = 1) AND (position >= 1)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "projects" ("name", "position", "visible", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Series Project"], ["position", 1], ["visible", "t"], ["created_at", "2016-06-15 11:52:00.000000"], ["updated_at", "2016-06-15 18:54:28.069394"]]
+  [1m[36m (74.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/projects
+Completed 302 Found in 82ms (ActiveRecord: 75.6ms)
+
+
+Started GET "/projects" for 204.155.175.80 at 2016-06-15 11:54:28 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  [1m[36mProject Load (0.7ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY projects.position ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (13.0ms)
+Completed 200 OK in 109ms (Views: 105.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/projects/show/3" for 204.155.175.243 at 2016-06-15 11:54:33 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 3]]
+  Rendered projects/show.html.erb within layouts/admin (4.4ms)
+Completed 200 OK in 103ms (Views: 99.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects" for 204.155.175.245 at 2016-06-15 11:54:35 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY projects.position ASC[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (11.3ms)
+Completed 200 OK in 110ms (Views: 107.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/sections?project_id=3" for 204.155.175.245 at 2016-06-15 11:54:36 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 3]]
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3]]
+  Rendered sections/index.html.erb within layouts/admin (4.4ms)
+Completed 200 OK in 119ms (Views: 114.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/sections/new?project_id=3" for 204.155.175.244 at 2016-06-15 11:54:38 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#new as HTML
+  Parameters: {"project_id"=>"3"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sections"[0m
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects"  ORDER BY position ASC
+  Rendered sections/_form.html.erb (4.2ms)
+  Rendered sections/new.html.erb within layouts/admin (6.2ms)
+Completed 200 OK in 103ms (Views: 98.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/sections/create?project_id=3" for 204.155.175.244 at 2016-06-15 11:54:56 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "section"=>{"project_id"=>"3", "name"=>"Kickoff Meeting Notes", "permalink"=>"serieskickoff", "position"=>"1", "visible"=>"1"}, "commit"=>"Create Section", "project_id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSection Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sections" WHERE "sections"."permalink" = 'serieskickoff' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "sections" SET position = (position + 1) WHERE "sections"."project_id" = ? AND (position >= 1)  [["project_id", 3]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "sections" ("project_id", "name", "permalink", "position", "visible", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["project_id", 3], ["name", "Kickoff Meeting Notes"], ["permalink", "serieskickoff"], ["position", 1], ["visible", "t"], ["created_at", "2016-06-15 18:54:56.022297"], ["updated_at", "2016-06-15 18:54:56.022297"]]
+  [1m[35mProject Load (0.1ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "projects" SET "updated_at" = '2016-06-15 18:54:56.025792' WHERE "projects"."id" = ?[0m  [["id", 3]]
+  [1m[35m (73.8ms)[0m  commit transaction
+Redirected to http://racr.azcentral.com/sections?project_id=3
+Completed 302 Found in 85ms (ActiveRecord: 75.0ms)
+
+
+Started GET "/sections?project_id=3" for 204.155.175.244 at 2016-06-15 11:54:56 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"3"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 3]]
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 5]]
+  Rendered sections/index.html.erb within layouts/admin (7.3ms)
+Completed 200 OK in 104ms (Views: 100.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/sections/new?project_id=3" for 204.155.175.238 at 2016-06-15 11:54:58 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#new as HTML
+  Parameters: {"project_id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY position ASC[0m
+  Rendered sections/_form.html.erb (4.2ms)
+  Rendered sections/new.html.erb within layouts/admin (6.2ms)
+Completed 200 OK in 106ms (Views: 101.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/sections/create?project_id=3" for 204.155.175.239 at 2016-06-15 11:55:11 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "section"=>{"project_id"=>"3", "name"=>"Gherkin", "permalink"=>"seriesgherkin", "position"=>"2", "visible"=>"1"}, "commit"=>"Create Section", "project_id"=>"3"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSection Exists (0.2ms)[0m  SELECT  1 AS one FROM "sections" WHERE "sections"."permalink" = 'seriesgherkin' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "sections" SET position = (position + 1) WHERE "sections"."project_id" = ? AND (position >= 2)[0m  [["project_id", 3]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "sections" ("project_id", "name", "permalink", "position", "visible", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["project_id", 3], ["name", "Gherkin"], ["permalink", "seriesgherkin"], ["position", 2], ["visible", "t"], ["created_at", "2016-06-15 18:55:11.801152"], ["updated_at", "2016-06-15 18:55:11.801152"]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "projects" SET "updated_at" = '2016-06-15 18:55:11.804713' WHERE "projects"."id" = ?  [["id", 3]]
+  [1m[36m (65.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/sections?project_id=3
+Completed 302 Found in 76ms (ActiveRecord: 66.3ms)
+
+
+Started GET "/sections?project_id=3" for 204.155.175.239 at 2016-06-15 11:55:11 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"3"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 3]]
+  [1m[35mSection Load (0.7ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC  [["project_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 6]]
+  Rendered sections/index.html.erb within layouts/admin (9.8ms)
+Completed 200 OK in 106ms (Views: 102.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 204.155.175.81 at 2016-06-15 11:55:38 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 3], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.8ms)
+Completed 200 OK in 108ms (Views: 103.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/show/serieskickoff" for 204.155.175.80 at 2016-06-15 11:55:42 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"serieskickoff"}
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "serieskickoff"], ["visible", "t"]]
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 5], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.0ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 3], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.4ms)
+Completed 200 OK in 110ms (Views: 104.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 204.155.175.238 at 2016-06-15 11:55:45 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 3], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.6ms)
+Completed 200 OK in 108ms (Views: 103.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admin" for 204.155.175.244 at 2016-06-15 11:55:46 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (1.0ms)
+Completed 200 OK in 114ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 204.155.175.244 at 2016-06-15 11:55:51 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 3], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.5ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.7ms)
+Completed 200 OK in 107ms (Views: 102.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/show/serieskickoff" for 204.155.175.236 at 2016-06-15 11:55:52 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"serieskickoff"}
+  [1m[36mSection Load (0.6ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1[0m  [["permalink", "serieskickoff"], ["visible", "t"]]
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC  [["section_id", 5], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (1.8ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC[0m  [["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 3], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 2], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.4ms)
+Completed 200 OK in 110ms (Views: 104.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/admin" for 204.155.175.236 at 2016-06-15 11:55:54 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 98ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 204.155.175.236 at 2016-06-15 11:55:56 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "projects"[0m
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects"  ORDER BY projects.position ASC
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 3]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (10.9ms)
+Completed 200 OK in 107ms (Views: 103.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/sections?project_id=3" for 204.155.175.246 at 2016-06-15 11:56:01 -0700
+Cannot render console from 204.155.175.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"3"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 3]]
+  [1m[35mSection Load (0.5ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC  [["project_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 6]]
+  Rendered sections/index.html.erb within layouts/admin (9.6ms)
+Completed 200 OK in 118ms (Views: 113.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/sections/edit/5?project_id=3" for 204.155.175.82 at 2016-06-15 11:56:03 -0700
+Cannot render console from 204.155.175.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#edit as HTML
+  Parameters: {"project_id"=>"3", "id"=>"5"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sections"[0m
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects"  ORDER BY position ASC
+  Rendered sections/_form.html.erb (4.1ms)
+  Rendered sections/edit.html.erb within layouts/admin (7.4ms)
+Completed 200 OK in 106ms (Views: 102.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/sections/update/5?project_id=3" for 204.155.175.248 at 2016-06-15 11:56:05 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "section"=>{"project_id"=>"3", "name"=>"Kickoff Meeting Notes", "permalink"=>"serieskickoff", "position"=>"1", "visible"=>"1"}, "commit"=>"Update Section", "project_id"=>"3", "id"=>"5"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSection Exists (0.3ms)[0m  SELECT  1 AS one FROM "sections" WHERE ("sections"."permalink" = 'serieskickoff' AND "sections"."id" != 5) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ? AND (position = 1)[0m  [["project_id", 3]]
+  [1m[35mProject Load (0.1ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "projects" SET "updated_at" = '2016-06-15 18:56:05.427995' WHERE "projects"."id" = ?[0m  [["id", 3]]
+  [1m[35m (69.9ms)[0m  commit transaction
+Redirected to http://racr.azcentral.com/sections/show/5?project_id=3
+Completed 302 Found in 82ms (ActiveRecord: 71.2ms)
+
+
+Started GET "/sections/show/5?project_id=3" for 204.155.175.248 at 2016-06-15 11:56:05 -0700
+Cannot render console from 204.155.175.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#show as HTML
+  Parameters: {"project_id"=>"3", "id"=>"5"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 5]]
+  Rendered sections/show.html.erb within layouts/admin (4.6ms)
+Completed 200 OK in 104ms (Views: 100.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sections/edit/5?project_id=3" for 204.155.175.236 at 2016-06-15 11:56:07 -0700
+Cannot render console from 204.155.175.236! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#edit as HTML
+  Parameters: {"project_id"=>"3", "id"=>"5"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sections"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY position ASC[0m
+  Rendered sections/_form.html.erb (4.1ms)
+  Rendered sections/edit.html.erb within layouts/admin (6.6ms)
+Completed 200 OK in 122ms (Views: 117.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/sections?project_id=3" for 204.155.175.245 at 2016-06-15 11:56:09 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"3"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 3]]
+  [1m[35mSection Load (0.5ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC  [["project_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 6]]
+  Rendered sections/index.html.erb within layouts/admin (10.0ms)
+Completed 200 OK in 107ms (Views: 102.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pages?section_id=5" for 204.155.175.241 at 2016-06-15 11:56:11 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"5"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 5]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC[0m  [["section_id", 5]]
+  Rendered pages/index.html.erb within layouts/admin (4.1ms)
+Completed 200 OK in 102ms (Views: 97.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/new?section_id=5" for 204.155.175.84 at 2016-06-15 11:59:26 -0700
+Cannot render console from 204.155.175.84! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#new as HTML
+  Parameters: {"section_id"=>"5"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3]]
+  Rendered pages/_form.html.erb (5.3ms)
+  Rendered pages/new.html.erb within layouts/admin (7.4ms)
+Completed 200 OK in 108ms (Views: 102.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/pages/create?section_id=5" for 204.155.175.247 at 2016-06-15 12:04:02 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"5", "name"=>"Notes", "position"=>"1", "visible"=>"1", "content_type"=>"text", "content"=>"Timeline looks like it will be initial release on July 1st.\r\n\r\nFeatures:\r\n - Present the series downloadable.\r\n - Media player embedded in website on main page and for each episode (from soundcloud)\r\n - Potentially ad positions\r\n - Site must be responsive\r\n - Needs design\r\n - Needs social media sharing options\r\n - Need to be able to update on the fly\r\n - Need to be able to have interactive video chat"}, "commit"=>"Create Page", "section_id"=>"5"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "pages" SET position = (position + 1) WHERE "pages"."section_id" = ? AND (position >= 1)  [["section_id", 5]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pages" ("section_id", "name", "position", "visible", "content_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["section_id", 5], ["name", "Notes"], ["position", 1], ["visible", "t"], ["content_type", "text"], ["content", "Timeline looks like it will be initial release on July 1st.\r\n\r\nFeatures:\r\n - Present the series downloadable.\r\n - Media player embedded in website on main page and for each episode (from soundcloud)\r\n - Potentially ad positions\r\n - Site must be responsive\r\n - Needs design\r\n - Needs social media sharing options\r\n - Need to be able to update on the fly\r\n - Need to be able to have interactive video chat"], ["created_at", "2016-06-15 19:04:02.645940"], ["updated_at", "2016-06-15 19:04:02.645940"]]
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "sections" SET "updated_at" = '2016-06-15 19:04:02.649920' WHERE "sections"."id" = ?[0m  [["id", 5]]
+  [1m[35m (79.2ms)[0m  commit transaction
+Redirected to http://racr.azcentral.com/pages?section_id=5
+Completed 302 Found in 90ms (ActiveRecord: 80.3ms)
+
+
+Started GET "/pages?section_id=5" for 204.155.175.247 at 2016-06-15 12:04:02 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"5"}
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 5]]
+  [1m[36mPage Load (0.7ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC[0m  [["section_id", 5]]
+  Rendered pages/index.html.erb within layouts/admin (5.7ms)
+Completed 200 OK in 102ms (Views: 98.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pages?section_id=5" for 204.155.175.81 at 2016-06-15 12:04:10 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"5"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 5]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC  [["section_id", 5]]
+  Rendered pages/index.html.erb within layouts/admin (5.3ms)
+Completed 200 OK in 103ms (Views: 99.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/new?section_id=5" for 204.155.175.81 at 2016-06-15 12:04:12 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#new as HTML
+  Parameters: {"section_id"=>"5"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mProject Load (0.1ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "pages"[0m
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[35mSection Load (0.5ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC  [["project_id", 3]]
+  Rendered pages/_form.html.erb (4.8ms)
+  Rendered pages/new.html.erb within layouts/admin (7.2ms)
+Completed 200 OK in 107ms (Views: 101.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/pages/create?section_id=5" for 204.155.175.239 at 2016-06-15 12:17:55 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"5", "name"=>"Followup meeting notes", "position"=>"1", "visible"=>"0", "content_type"=>"text", "content"=>"Bill, Craig, Josh all agree timeline is too aggressive to be able to deliver entire product by the date requested.\r\n\r\nJosh - This is why I mentioned on the call that we need to understand what their minimum acceptable product was on the call. We need to know what they'll accept, and it sounds like maybe just a landing page with an embedded audio player?\r\n\r\nErin - Are you going to come up with the art for the background page Bill?\r\n\r\nBill - No - we want the photographer to come up with that, and we need it by Friday (6/17)\r\n\r\nCraig - It's a necessity, we don't know the details other than the premise, and they have to be the ones to provide that. For each individual podcast or box or widget... I would hope that they can display the artwork. \r\n\r\nBill - I would be shooting in the dark to find quality art for this. They would feel more comfortable if they did that themselves I would think.\r\n\r\nErin - OK so we need photographs for the background and each podcast?\r\n\r\nBill - Yeah, high res.\r\n\r\nErin - We also need the description text, okay.\r\n\r\nErica - We also need social icons, but that's already in the to-dos.\r\n\r\nErin - We're going to tell Jordan we need all of this by Friday, including, name, URL, any assets he has. Bill how many for mock and HTML / CSS including approval day?\r\n\r\nBill - Craig, do you want us to do the HTML CSS for this?\r\n\r\nCraig - How do you feel about that? I think it's worked well, but I don't know if that's putting too much on you.\r\n\r\nBill - I think it depends on how quickly we have to turn it around. If we back this out from the launch date, and the things that QA needs to do and the things that you need to do, how many days are we talking about before we discuss HTML and design?\r\n\r\nCraig - I can get going next week while you're working on design and we'll set it up at the same place that sports awards and onenation is set up. We'll use the same process for FTP and caching.\r\n\r\nJosh - It's going to be difficult for me to give any timeframe for QA until I know what features are going into V1.\r\n\r\nBill - Well we want a responsive page, a title, social buttons, a description, and then possibly a podcast - like an audio player button overall, and then individual squares laid out in a certain way that represent chapters, possibly a short description. Am I missing anything?\r\n\r\nJosh - Subscriptions through iTunes.\r\n\r\nErin - Newsletters.\r\n\r\nCraig - I kind of got the impression that each box would have an embedded player, and a link to the long form which would also have an embedded player. I got the impression that there wasn't a separate button, but each box would have a play button in it for each episode.\r\n\r\nBill - I thought they were leading towards updates, but I might be wrong on that.\r\n\r\nErica - I think they wanted each box for each segment to be able to play and link to the long form within one box.\r\n\r\nCraig - is this a one-off, or do we go back and do this as a Presto page for other markets?\r\n\r\nErin - I'll find out. This seems like an iterative thing to me. After we've got this fire drill done we can go back and look.\r\n\r\nBill - Josh are you in a better place to give an estimate on time?\r\n\r\nJosh - I have no real context to give an estimate, but I would say a minimum of 3 days to at least give a minimum and NOT thorough QA go through."}, "commit"=>"Create Page", "section_id"=>"5"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "pages" SET position = (position + 1) WHERE "pages"."section_id" = ? AND (position >= 1)[0m  [["section_id", 5]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pages" ("section_id", "name", "position", "content_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["section_id", 5], ["name", "Followup meeting notes"], ["position", 1], ["content_type", "text"], ["content", "Bill, Craig, Josh all agree timeline is too aggressive to be able to deliver entire product by the date requested.\r\n\r\nJosh - This is why I mentioned on the call that we need to understand what their minimum acceptable product was on the call. We need to know what they'll accept, and it sounds like maybe just a landing page with an embedded audio player?\r\n\r\nErin - Are you going to come up with the art for the background page Bill?\r\n\r\nBill - No - we want the photographer to come up with that, and we need it by Friday (6/17)\r\n\r\nCraig - It's a necessity, we don't know the details other than the premise, and they have to be the ones to provide that. For each individual podcast or box or widget... I would hope that they can display the artwork. \r\n\r\nBill - I would be shooting in the dark to find quality art for this. They would feel more comfortable if they did that themselves I would think.\r\n\r\nErin - OK so we need photographs for the background and each podcast?\r\n\r\nBill - Yeah, high res.\r\n\r\nErin - We also need the description text, okay.\r\n\r\nErica - We also need social icons, but that's already in the to-dos.\r\n\r\nErin - We're going to tell Jordan we need all of this by Friday, including, name, URL, any assets he has. Bill how many for mock and HTML / CSS including approval day?\r\n\r\nBill - Craig, do you want us to do the HTML CSS for this?\r\n\r\nCraig - How do you feel about that? I think it's worked well, but I don't know if that's putting too much on you.\r\n\r\nBill - I think it depends on how quickly we have to turn it around. If we back this out from the launch date, and the things that QA needs to do and the things that you need to do, how many days are we talking about before we discuss HTML and design?\r\n\r\nCraig - I can get going next week while you're working on design and we'll set it up at the same place that sports awards and onenation is set up. We'll use the same process for FTP and caching.\r\n\r\nJosh - It's going to be difficult for me to give any timeframe for QA until I know what features are going into V1.\r\n\r\nBill - Well we want a responsive page, a title, social buttons, a description, and then possibly a podcast - like an audio player button overall, and then individual squares laid out in a certain way that represent chapters, possibly a short description. Am I missing anything?\r\n\r\nJosh - Subscriptions through iTunes.\r\n\r\nErin - Newsletters.\r\n\r\nCraig - I kind of got the impression that each box would have an embedded player, and a link to the long form which would also have an embedded player. I got the impression that there wasn't a separate button, but each box would have a play button in it for each episode.\r\n\r\nBill - I thought they were leading towards updates, but I might be wrong on that.\r\n\r\nErica - I think they wanted each box for each segment to be able to play and link to the long form within one box.\r\n\r\nCraig - is this a one-off, or do we go back and do this as a Presto page for other markets?\r\n\r\nErin - I'll find out. This seems like an iterative thing to me. After we've got this fire drill done we can go back and look.\r\n\r\nBill - Josh are you in a better place to give an estimate on time?\r\n\r\nJosh - I have no real context to give an estimate, but I would say a minimum of 3 days to at least give a minimum and NOT thorough QA go through."], ["created_at", "2016-06-15 19:17:55.191708"], ["updated_at", "2016-06-15 19:17:55.191708"]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sections" SET "updated_at" = '2016-06-15 19:17:55.195998' WHERE "sections"."id" = ?  [["id", 5]]
+  [1m[36m (89.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/pages?section_id=5
+Completed 302 Found in 100ms (ActiveRecord: 90.3ms)
+
+
+Started GET "/pages?section_id=5" for 204.155.175.239 at 2016-06-15 12:17:55 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"5"}
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 5]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC  [["section_id", 5]]
+  Rendered pages/index.html.erb within layouts/admin (6.9ms)
+Completed 200 OK in 106ms (Views: 102.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/show/9?section_id=5" for 204.155.175.241 at 2016-06-15 12:17:58 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#show as HTML
+  Parameters: {"section_id"=>"5", "id"=>"9"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mPage Load (0.1ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered pages/show.html.erb within layouts/admin (3.1ms)
+Completed 200 OK in 116ms (Views: 113.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages?section_id=5" for 204.155.175.80 at 2016-06-15 12:18:05 -0700
+Cannot render console from 204.155.175.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"5"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 5]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC[0m  [["section_id", 5]]
+  Rendered pages/index.html.erb within layouts/admin (6.9ms)
+Completed 200 OK in 105ms (Views: 101.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 204.155.175.243 at 2016-06-15 12:18:07 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.9ms)
+Completed 200 OK in 108ms (Views: 103.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/show/seriesgherkin" for 204.155.175.237 at 2016-06-15 12:18:09 -0700
+Cannot render console from 204.155.175.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"seriesgherkin"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "seriesgherkin"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 6], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (1.9ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.4ms)
+Completed 200 OK in 112ms (Views: 105.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/show/serieskickoff" for 204.155.175.81 at 2016-06-15 12:18:10 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"serieskickoff"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "serieskickoff"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 5], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.1ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.6ms)
+Completed 200 OK in 111ms (Views: 105.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/show/confluxgherkin" for 204.155.175.247 at 2016-06-15 12:18:18 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"confluxgherkin"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "confluxgherkin"], ["visible", "t"]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 4], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.3ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.3ms)
+Completed 200 OK in 112ms (Views: 106.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/show/confluxsums" for 204.155.175.244 at 2016-06-15 12:18:20 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"confluxsums"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "confluxsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 3], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.3ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.6ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.4ms)
+Completed 200 OK in 112ms (Views: 105.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/show/confluxgherkin" for 204.155.175.244 at 2016-06-15 12:18:21 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"confluxgherkin"}
+  [1m[35mSection Load (0.5ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "confluxgherkin"], ["visible", "t"]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 4], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.2ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.8ms)
+Completed 200 OK in 113ms (Views: 107.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/show/serieskickoff" for 204.155.175.245 at 2016-06-15 12:18:23 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"serieskickoff"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "serieskickoff"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 5], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.2ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.3ms)
+Completed 200 OK in 126ms (Views: 120.3ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/admin" for 204.155.175.243 at 2016-06-15 12:18:26 -0700
+Cannot render console from 204.155.175.243! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccessController#index as HTML
+  Rendered access/index.html.erb within layouts/admin (0.9ms)
+Completed 200 OK in 97ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 204.155.175.238 at 2016-06-15 12:18:28 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects"  ORDER BY projects.position ASC[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?[0m  [["project_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 1]]
+  Rendered projects/index.html.erb within layouts/admin (11.3ms)
+Completed 200 OK in 108ms (Views: 104.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/sections?project_id=3" for 204.155.175.238 at 2016-06-15 12:18:33 -0700
+Cannot render console from 204.155.175.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SectionsController#index as HTML
+  Parameters: {"project_id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sections" WHERE "sections"."project_id" = ?  [["project_id", 3]]
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?  [["section_id", 5]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 6]]
+  Rendered sections/index.html.erb within layouts/admin (9.9ms)
+Completed 200 OK in 108ms (Views: 104.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pages?section_id=5" for 204.155.175.241 at 2016-06-15 12:18:37 -0700
+Cannot render console from 204.155.175.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Parameters: {"section_id"=>"5"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ?[0m  [["section_id", 5]]
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ?  ORDER BY pages.position ASC  [["section_id", 5]]
+  Rendered pages/index.html.erb within layouts/admin (6.8ms)
+Completed 200 OK in 104ms (Views: 100.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/edit/9?section_id=5" for 204.155.175.239 at 2016-06-15 12:18:41 -0700
+Cannot render console from 204.155.175.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#edit as HTML
+  Parameters: {"section_id"=>"5", "id"=>"9"}
+  [1m[36mSection Load (0.2ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mPage Load (0.1ms)[0m  SELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "pages"
+  Rendered application/_error_messages.html.erb (0.1ms)
+  [1m[36mSection Load (0.5ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3]]
+  Rendered pages/_form.html.erb (5.0ms)
+  Rendered pages/edit.html.erb within layouts/admin (7.2ms)
+Completed 200 OK in 107ms (Views: 101.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/pages/update/9?section_id=5" for 204.155.175.245 at 2016-06-15 12:18:44 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "page"=>{"section_id"=>"5", "name"=>"Followup meeting notes", "position"=>"1", "visible"=>"1", "content_type"=>"text", "content"=>"Bill, Craig, Josh all agree timeline is too aggressive to be able to deliver entire product by the date requested.\r\n\r\nJosh - This is why I mentioned on the call that we need to understand what their minimum acceptable product was on the call. We need to know what they'll accept, and it sounds like maybe just a landing page with an embedded audio player?\r\n\r\nErin - Are you going to come up with the art for the background page Bill?\r\n\r\nBill - No - we want the photographer to come up with that, and we need it by Friday (6/17)\r\n\r\nCraig - It's a necessity, we don't know the details other than the premise, and they have to be the ones to provide that. For each individual podcast or box or widget... I would hope that they can display the artwork. \r\n\r\nBill - I would be shooting in the dark to find quality art for this. They would feel more comfortable if they did that themselves I would think.\r\n\r\nErin - OK so we need photographs for the background and each podcast?\r\n\r\nBill - Yeah, high res.\r\n\r\nErin - We also need the description text, okay.\r\n\r\nErica - We also need social icons, but that's already in the to-dos.\r\n\r\nErin - We're going to tell Jordan we need all of this by Friday, including, name, URL, any assets he has. Bill how many for mock and HTML / CSS including approval day?\r\n\r\nBill - Craig, do you want us to do the HTML CSS for this?\r\n\r\nCraig - How do you feel about that? I think it's worked well, but I don't know if that's putting too much on you.\r\n\r\nBill - I think it depends on how quickly we have to turn it around. If we back this out from the launch date, and the things that QA needs to do and the things that you need to do, how many days are we talking about before we discuss HTML and design?\r\n\r\nCraig - I can get going next week while you're working on design and we'll set it up at the same place that sports awards and onenation is set up. We'll use the same process for FTP and caching.\r\n\r\nJosh - It's going to be difficult for me to give any timeframe for QA until I know what features are going into V1.\r\n\r\nBill - Well we want a responsive page, a title, social buttons, a description, and then possibly a podcast - like an audio player button overall, and then individual squares laid out in a certain way that represent chapters, possibly a short description. Am I missing anything?\r\n\r\nJosh - Subscriptions through iTunes.\r\n\r\nErin - Newsletters.\r\n\r\nCraig - I kind of got the impression that each box would have an embedded player, and a link to the long form which would also have an embedded player. I got the impression that there wasn't a separate button, but each box would have a play button in it for each episode.\r\n\r\nBill - I thought they were leading towards updates, but I might be wrong on that.\r\n\r\nErica - I think they wanted each box for each segment to be able to play and link to the long form within one box.\r\n\r\nCraig - is this a one-off, or do we go back and do this as a Presto page for other markets?\r\n\r\nErin - I'll find out. This seems like an iterative thing to me. After we've got this fire drill done we can go back and look.\r\n\r\nBill - Josh are you in a better place to give an estimate on time?\r\n\r\nJosh - I have no real context to give an estimate, but I would say a minimum of 3 days to at least give a minimum and NOT thorough QA go through."}, "commit"=>"Update Page", "section_id"=>"5", "id"=>"9"}
+  [1m[35mSection Load (0.2ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "pages" SET "visible" = ?, "updated_at" = ? WHERE "pages"."id" = ?[0m  [["visible", "t"], ["updated_at", "2016-06-15 19:18:44.538959"], ["id", 9]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."section_id" = ? AND (position = 1)  [["section_id", 5]]
+  [1m[36mSection Load (0.1ms)[0m  [1mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sections" SET "updated_at" = '2016-06-15 19:18:44.542846' WHERE "sections"."id" = ?  [["id", 5]]
+  [1m[36m (70.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://racr.azcentral.com/pages/show/9?section_id=5
+Completed 302 Found in 81ms (ActiveRecord: 72.0ms)
+
+
+Started GET "/pages/show/9?section_id=5" for 204.155.175.245 at 2016-06-15 12:18:44 -0700
+Cannot render console from 204.155.175.245! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#show as HTML
+  Parameters: {"section_id"=>"5", "id"=>"9"}
+  [1m[35mSection Load (0.1ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered pages/show.html.erb within layouts/admin (1.7ms)
+Completed 200 OK in 100ms (Views: 96.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 204.155.175.81 at 2016-06-15 12:18:46 -0700
+Cannot render console from 204.155.175.81! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#index as HTML
+  Rendered public/index.html.erb within layouts/public (0.1ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.8ms)
+Completed 200 OK in 109ms (Views: 105.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/show/serieskickoff" for 204.155.175.244 at 2016-06-15 12:18:48 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"serieskickoff"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "serieskickoff"], ["visible", "t"]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 5], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.4ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.4ms)
+Completed 200 OK in 128ms (Views: 121.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/show/confluxgherkin" for 204.155.175.244 at 2016-06-15 12:18:49 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"confluxgherkin"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "confluxgherkin"], ["visible", "t"]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 4], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.4ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.3ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.3ms)
+Completed 200 OK in 112ms (Views: 105.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/show/confluxsums" for 204.155.175.244 at 2016-06-15 12:18:50 -0700
+Cannot render console from 204.155.175.244! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"confluxsums"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "confluxsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 3], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.3ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.2ms)
+Completed 200 OK in 111ms (Views: 105.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/show/allsums" for 204.155.175.247 at 2016-06-15 12:18:51 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"allsums"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "allsums"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 1], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (2.2ms)
+  [1m[35mProject Load (0.7ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.5ms)
+Completed 200 OK in 112ms (Views: 106.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/show/seriesgherkin" for 204.155.175.247 at 2016-06-15 12:18:52 -0700
+Cannot render console from 204.155.175.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PublicController#show as HTML
+  Parameters: {"permalink"=>"seriesgherkin"}
+  [1m[35mSection Load (0.6ms)[0m  SELECT  "sections".* FROM "sections" WHERE "sections"."permalink" = ? AND "sections"."visible" = ?  ORDER BY "sections"."id" ASC LIMIT 1  [["permalink", "seriesgherkin"], ["visible", "t"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."section_id" = ? AND "pages"."visible" = ?  ORDER BY pages.position ASC[0m  [["section_id", 6], ["visible", "t"]]
+  Rendered public/show.html.erb within layouts/public (1.9ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."visible" = ?  ORDER BY projects.position ASC  [["visible", "t"]]
+  [1m[36mSection Load (0.4ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 3], ["visible", "t"]]
+  [1m[35mSection Load (0.4ms)[0m  SELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC  [["project_id", 2], ["visible", "t"]]
+  [1m[36mSection Load (0.3ms)[0m  [1mSELECT "sections".* FROM "sections" WHERE "sections"."project_id" = ? AND "sections"."visible" = ?  ORDER BY sections.position ASC[0m  [["project_id", 1], ["visible", "t"]]
+  Rendered layouts/_navigation.html.erb (9.6ms)
+Completed 200 OK in 111ms (Views: 105.1ms | ActiveRecord: 2.7ms)
