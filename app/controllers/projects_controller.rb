@@ -10,8 +10,8 @@ class ProjectsController < ApplicationController
 
   def show
     @project = Project.find(params[:id])
-    @section = Section.find(params[:id])
-    @pages = @section.pages.sorted
+    #@section = Section.find(params[:id])
+    #@pages = @section.pages.sorted
   end
 
   def new
